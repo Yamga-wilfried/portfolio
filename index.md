@@ -5,7 +5,7 @@ Je conçois, déploie et documente des solutions dans un cadre pédagogique, pro
 
 ---
 
-## 🛡️ SOC Building Open Source – Projet pédagogique
+## 🛡️ SOC Building Open Source – Projet personnel
 📌 Collecte de logs | Corrélation | Réponse automatisée  
 🔗 [Voir le projet](https://yamga-wilfried.github.io/Cybersecurity-SOC-project/)
 
