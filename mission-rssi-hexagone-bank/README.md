@@ -10,7 +10,7 @@
 ![Méthode](https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square)
 ![Budget](https://img.shields.io/badge/Trajectoire-23%2C9%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square)
 
-*Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste). Mission menée en binôme dans le cadre du Mastère Manager en Cybersécurité — EFREI Paris, 2025-2026. Ce document restitue le rôle de **RSSI Organisationnel**, tenu par Loïc Wilfried Yamga.*
+*Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste). Mission menée en binôme dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026. Ce document restitue le rôle de **RSSI Organisationnel**, tenu par Loïc Wilfried Yamga.*
 
 </div>
 
@@ -300,7 +300,7 @@ C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un
 <div align="center">
 
 **Loïc Wilfried Yamga** — RSSI Organisationnel
-*Mission réalisée en binôme avec Samuel Kissi-Bi (RSSI Opérationnel) — Mastère Manager en Cybersécurité, EFREI Paris, 2025-2026*
+*Mission réalisée en binôme avec Samuel Kissi-Bi (RSSI Opérationnel) — cursus spécialisé en cybersécurité, 2025-2026*
 
 [← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
 
