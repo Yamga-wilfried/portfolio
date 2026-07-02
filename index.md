@@ -19,7 +19,7 @@ Le projet met en œuvre l’ensemble du cycle de surveillance, de detection, d'a
 
 
 ### 🏛️ Mission RSSI – Projet professionnel
-Gouvernance et résilience cyber en milieu bancaire **(EBIOS-RM, PCA/PRA, ISO 27001/ISO 27005, PCI DSS, DORA, ISO 27036, ISO 22301)**.
+Conception d'un dispositif de gouvernance SSI et de résilience opérationnelle pour une banque **(EBIOS-RM, PCA/PRA, ISO 27001/ISO 27005, PCI DSS, DORA, ISO 27036, ISO 22301)**.
 
 ---
 
