@@ -19,7 +19,7 @@ Le projet met en œuvre l’ensemble du cycle de surveillance, de detection, d'a
 
 
 ### 🏛️ Mission RSSI – Gouvernance SSI et Résilience Opérationnelle d'un Système d'Information Bancaire
-Conception d'une gouvernance SSI complète pour une banque, couvrant inventaire des actifs, état des lieux, l'analyse de risques(**EBIOS RM**), la conformité réglementaire (**DORA, PCI DSS, ISO 27001**), la gestion des prestataires (**ISO 27036**), la continuité d'activité (PCA/PRA – ISO 22301) et la définition d'une feuille de route cybersécurité pluriannuelle. 
+Conception d'une gouvernance SSI complète pour une banque, couvrant inventaire des actifs, état des lieux, l'analyse de risques(**EBIOS RM**), la conformité réglementaire (**DORA, PCI DSS, ISO 27001**), la gestion des prestataires (**ISO 27036**), la continuité d'activité (**PCA/PRA – ISO 22301**) et la définition d'une feuille de route cybersécurité pluriannuelle. 
 
 ---
 
