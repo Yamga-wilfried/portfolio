@@ -18,8 +18,10 @@ Le projet met en œuvre l’ensemble du cycle de surveillance, de detection, d'a
 
 
 
-### 🏛️ Mission RSSI – Gouvernance SSI et Résilience Opérationnelle d'un Système d'Information Bancaire
-Conception d'une gouvernance SSI complète pour une banque, couvrant l'inventaire des actifs, l'état des lieux, l'analyse de risques(**EBIOS RM**), la conformité réglementaire (**DORA, PCI DSS, ISO 27001**), la gestion des prestataires (**ISO 27036**), la continuité d'activité (**PCA/PRA – ISO 22301**) et la définition d'une feuille de route cybersécurité pluriannuelle. 
+### 🏛️ Mission RSSI – Piloter la Cyber-Résilience d'une Banque Systémique
+Mission de gouvernance SSI menée pour Hexagone Bank (établissement bancaire fictif à visée pédagogique, réalisme opérationnel total) : audit de maturité, analyse de risques **EBIOS Risk Manager** (9 scénarios, 4 risques résiduels arbitrés en COMEX), gouvernance des prestataires (**ISO 27036**), continuité d'activité (**PCA/PRA – ISO 22301**) et feuille de route cyber priorisée à **23,9 M€ sur 3 ans**, conforme **DORA, PCI DSS, ISO 27001/27005**.
+
+🔗 [Voir l'étude de cas complète](mission-rssi-hexagone-bank/README.md)
 
 ---
 

@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10264A"/>
+      <stop offset="100%" stop-color="#1B3A6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="#FFFFFF"/>
+  <rect width="1200" height="72" fill="url(#hdr)"/>
+  <text x="30" y="32" fill="#FFFFFF" font-size="20" font-weight="800">Traitement des risques EBIOS Risk Manager — Atelier 5</text>
+  <text x="30" y="56" fill="#B9C6E0" font-size="14">8 des 9 scénarios consolidés · statut avant / après application du PACS · décision d'acceptation formelle réservée au COMEX cyber</text>
+
+  <!-- column headers -->
+  <g font-size="12.5" font-weight="700" fill="#5A6B8C">
+    <text x="30" y="100">SCÉNARIO</text>
+    <text x="560" y="100">GRAVITÉ / VRAISEMBLANCE INITIALE</text>
+    <text x="870" y="100" text-anchor="middle">→</text>
+    <text x="930" y="100">STATUT APRÈS TRAITEMENT PACS</text>
+  </g>
+  <line x1="30" y1="112" x2="1170" y2="112" stroke="#E2E6EF" stroke-width="1.5"/>
+
+  <!-- Rows: y baseline increments of 62 starting 150 -->
+
+  <!-- Row template values -->
+  <!-- R1 -->
+  <g font-size="14">
+    <text x="30" y="150" font-weight="800" fill="#10264A">R1</text>
+    <text x="66" y="150" fill="#1F2937">Ransomware via mouvement latéral sur l'Active Directory</text>
+    <rect x="560" y="132" width="46" height="24" rx="5" fill="#FDECEA"/><text x="583" y="149" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">G3</text>
+    <rect x="614" y="132" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="149" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="150" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="132" width="150" height="26" rx="13" fill="#FFF6DD"/><text x="1005" y="150" text-anchor="middle" fill="#B7791F" font-size="12.5" font-weight="700">À SURVEILLER</text>
+  </g>
+
+  <!-- R2 -->
+  <g font-size="14">
+    <text x="30" y="212" font-weight="800" fill="#10264A">R2</text>
+    <text x="66" y="212" fill="#1F2937">Espionnage concurrentiel et exfiltration ciblée</text>
+    <rect x="560" y="194" width="46" height="24" rx="5" fill="#FDECEA"/><text x="583" y="211" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">G3</text>
+    <rect x="614" y="194" width="46" height="24" rx="5" fill="#FFF6DD"/><text x="637" y="211" text-anchor="middle" fill="#B7791F" font-size="12" font-weight="700">V2</text>
+    <text x="855" y="212" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="194" width="130" height="26" rx="13" fill="#E9F7EF"/><text x="995" y="212" text-anchor="middle" fill="#1E8449" font-size="12.5" font-weight="700">ACCEPTABLE</text>
+  </g>
+
+  <!-- R3 -->
+  <g font-size="14">
+    <text x="30" y="274" font-weight="800" fill="#10264A">R3</text>
+    <text x="66" y="274" fill="#1F2937">Fraude sur virements SWIFT via mauvaise configuration IAM cloud</text>
+    <rect x="560" y="256" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="273" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="256" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="273" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="274" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="256" width="160" height="26" rx="13" fill="#FCE1DE"/><text x="1010" y="274" text-anchor="middle" fill="#A93226" font-size="12.5" font-weight="700">NON ACCEPTABLE</text>
+  </g>
+
+  <!-- R4 -->
+  <g font-size="14">
+    <text x="30" y="336" font-weight="800" fill="#10264A">R4</text>
+    <text x="66" y="336" fill="#1F2937">Fuite de données clients (KYC) via hameçonnage ciblé</text>
+    <rect x="560" y="318" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="335" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="318" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="335" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="336" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="318" width="160" height="26" rx="13" fill="#FCE1DE"/><text x="1010" y="336" text-anchor="middle" fill="#A93226" font-size="12.5" font-weight="700">NON ACCEPTABLE</text>
+  </g>
+
+  <!-- R6 -->
+  <g font-size="14">
+    <text x="30" y="398" font-weight="800" fill="#10264A">R6</text>
+    <text x="66" y="398" fill="#1F2937">Extraction massive de données via l'API Open Banking</text>
+    <rect x="560" y="380" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="397" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="380" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="397" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="398" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="380" width="160" height="26" rx="13" fill="#FCE1DE"/><text x="1010" y="398" text-anchor="middle" fill="#A93226" font-size="12.5" font-weight="700">NON ACCEPTABLE</text>
+  </g>
+
+  <!-- R7 -->
+  <g font-size="14">
+    <text x="30" y="460" font-weight="800" fill="#10264A">R7</text>
+    <text x="66" y="460" fill="#1F2937">Backdoor implantée via une mise à jour logicielle d'un fournisseur</text>
+    <rect x="560" y="442" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="459" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="442" width="46" height="24" rx="5" fill="#E9F7EF"/><text x="637" y="459" text-anchor="middle" fill="#1E8449" font-size="12" font-weight="700">V1</text>
+    <text x="855" y="460" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="442" width="150" height="26" rx="13" fill="#FFF6DD"/><text x="1005" y="460" text-anchor="middle" fill="#B7791F" font-size="12.5" font-weight="700">À SURVEILLER</text>
+  </g>
+
+  <!-- R8 -->
+  <g font-size="14">
+    <text x="30" y="522" font-weight="800" fill="#10264A">R8</text>
+    <text x="66" y="522" fill="#1F2937">Compromission d'un compte d'accès distant prestataire (TMA)</text>
+    <rect x="560" y="504" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="521" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="504" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="521" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="522" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="504" width="160" height="26" rx="13" fill="#FCE1DE"/><text x="1010" y="522" text-anchor="middle" fill="#A93226" font-size="12.5" font-weight="700">NON ACCEPTABLE</text>
+  </g>
+
+  <!-- R9 -->
+  <g font-size="14">
+    <text x="30" y="584" font-weight="800" fill="#10264A">R9</text>
+    <text x="66" y="584" fill="#1F2937">Déstabilisation d'image par un acteur hacktiviste (DDoS / défacement)</text>
+    <rect x="560" y="566" width="46" height="24" rx="5" fill="#FCE1DE"/><text x="583" y="583" text-anchor="middle" fill="#A93226" font-size="12" font-weight="700">G4</text>
+    <rect x="614" y="566" width="46" height="24" rx="5" fill="#FDECEA"/><text x="637" y="583" text-anchor="middle" fill="#C0392B" font-size="12" font-weight="700">V3</text>
+    <text x="855" y="584" text-anchor="middle" fill="#9CA3AF" font-size="16">→</text>
+    <rect x="930" y="566" width="150" height="26" rx="13" fill="#FFF6DD"/><text x="1005" y="584" text-anchor="middle" fill="#B7791F" font-size="12.5" font-weight="700">À SURVEILLER</text>
+  </g>
+
+  <line x1="30" y1="600" x2="1170" y2="600" stroke="#E2E6EF" stroke-width="1"/>
+  <text x="30" y="614" fill="#9CA3AF" font-size="11.5">Gravité : G1 Mineur → G4 Critique · Vraisemblance : V1 Peu vraisemblable → V4 Quasi-certain (échelle ANSSI EBIOS Risk Manager)</text>
+</svg>

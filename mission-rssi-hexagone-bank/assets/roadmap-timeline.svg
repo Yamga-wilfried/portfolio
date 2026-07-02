@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1600 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="hdr2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10264A"/>
+      <stop offset="100%" stop-color="#1B3A6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="620" fill="#FFFFFF"/>
+  <rect width="1600" height="72" fill="url(#hdr2)"/>
+  <text x="30" y="32" fill="#FFFFFF" font-size="20" font-weight="800">PACS — Plan d'Action Cybersécurité 2025-2027</text>
+  <text x="30" y="56" fill="#B9C6E0" font-size="14">20 projets · 3 vagues priorisées par impact / faisabilité / coût · enveloppe totale 23,9 M€ (budget cyber 20-25 M€)</text>
+
+  <!-- timeline axis -->
+  <line x1="100" y1="118" x2="1540" y2="118" stroke="#CBD5E1" stroke-width="2"/>
+  <g font-size="13" fill="#5A6B8C" font-weight="700">
+    <text x="100" y="106">2025</text>
+    <text x="580" y="106">2026</text>
+    <text x="1060" y="106">2027</text>
+    <text x="1520" y="106">2028</text>
+  </g>
+  <line x1="100" y1="112" x2="100" y2="124" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="580" y1="112" x2="580" y2="124" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="1060" y1="112" x2="1060" y2="124" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="1540" y1="112" x2="1540" y2="124" stroke="#94A3B8" stroke-width="1.5"/>
+
+  <!-- COPIL / COMEX checkpoints -->
+  <g>
+    <circle cx="340" cy="118" r="5" fill="#B7791F"/>
+    <text x="340" y="142" text-anchor="middle" fill="#B7791F" font-size="11" font-weight="700">COMEX T3-25</text>
+    <circle cx="820" cy="118" r="5" fill="#B7791F"/>
+    <text x="820" y="142" text-anchor="middle" fill="#B7791F" font-size="11" font-weight="700">COMEX T3-26</text>
+    <circle cx="1300" cy="118" r="5" fill="#B7791F"/>
+    <text x="1300" y="142" text-anchor="middle" fill="#B7791F" font-size="11" font-weight="700">COMEX T3-27</text>
+  </g>
+
+  <!-- Wave 1 -->
+  <rect x="100" y="180" width="480" height="26" rx="13" fill="#1E8449"/>
+  <text x="115" y="198" fill="#FFFFFF" font-size="13" font-weight="700">V1 · QUICK WINS &amp; FONDATIONS — 2025</text>
+  <rect x="100" y="216" width="1420" height="110" rx="10" fill="#F3FBF6" stroke="#CDEBD9"/>
+  <text x="122" y="244" fill="#14532D" font-size="14" font-weight="800">5 projets · 4,0 M€</text>
+  <text x="122" y="266" fill="#1F2937" font-size="12.5">Actions immédiates, forte réduction de risque, faible complexité — engagées sans attendre le vote budgétaire complet.</text>
+  <g font-size="12" font-weight="700" fill="#166534">
+    <rect x="122" y="284" width="176" height="28" rx="14" fill="#E9F7EF"/><text x="210" y="302" text-anchor="middle">P02 · MFA généralisé</text>
+    <rect x="310" y="284" width="230" height="28" rx="14" fill="#E9F7EF"/><text x="425" y="302" text-anchor="middle">P09 · Accès prestataires sécurisés</text>
+    <rect x="552" y="284" width="230" height="28" rx="14" fill="#E9F7EF"/><text x="667" y="302" text-anchor="middle">P14 · Classification des données</text>
+    <rect x="794" y="284" width="240" height="28" rx="14" fill="#E9F7EF"/><text x="914" y="302" text-anchor="middle">P20 · Gouvernance SSI &amp; sensibilisation</text>
+  </g>
+
+  <!-- Wave 2 -->
+  <rect x="220" y="352" width="840" height="26" rx="13" fill="#B7791F"/>
+  <text x="235" y="370" fill="#FFFFFF" font-size="13" font-weight="700">V2 · RENFORCEMENT STRUCTURANT — 2025-2026</text>
+  <rect x="220" y="388" width="1320" height="110" rx="10" fill="#FFFBF0" stroke="#F4E4B8"/>
+  <text x="242" y="416" fill="#7C5A0B" font-size="14" font-weight="800">10 projets · 11,0 M€</text>
+  <text x="242" y="438" fill="#1F2937" font-size="12.5">Renforcement des fondations IAM, cloud et supervision — le socle de la maîtrise du risque bancaire.</text>
+  <g font-size="12" font-weight="700" fill="#92650B">
+    <rect x="242" y="456" width="200" height="28" rx="14" fill="#FFF6DD"/><text x="342" y="474" text-anchor="middle">P01 · PAM</text>
+    <rect x="452" y="456" width="230" height="28" rx="14" fill="#FFF6DD"/><text x="567" y="474" text-anchor="middle">P03 · Gouvernance IAM</text>
+    <rect x="694" y="456" width="220" height="28" rx="14" fill="#FFF6DD"/><text x="804" y="474" text-anchor="middle">P06 · CSPM Cloud Azure</text>
+    <rect x="926" y="456" width="200" height="28" rx="14" fill="#FFF6DD"/><text x="1026" y="474" text-anchor="middle">P16 · DLP</text>
+    <rect x="1138" y="456" width="200" height="28" rx="14" fill="#FFF6DD"/><text x="1238" y="474" text-anchor="middle">P18 · SOC renforcé</text>
+  </g>
+
+  <!-- Wave 3 -->
+  <rect x="820" y="524" width="720" height="26" rx="13" fill="#10264A"/>
+  <text x="835" y="542" fill="#FFFFFF" font-size="13" font-weight="700">V3 · TRANSFORMATION &amp; RÉSILIENCE — 2026-2027</text>
+  <rect x="820" y="560" width="720" height="46" rx="10" fill="#F1F4FA" stroke="#D7DEEC"/>
+  <text x="842" y="580" fill="#10264A" font-size="14" font-weight="800">5 projets · 8,9 M€</text>
+  <text x="842" y="598" fill="#1F2937" font-size="12.5">Zero Trust (P05), résilience fournisseurs (P19), consolidation de la trajectoire de maturité cible.</text>
+</svg>
