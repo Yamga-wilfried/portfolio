@@ -16,13 +16,10 @@ Le projet met en œuvre l’ensemble du cycle de surveillance, de detection, d'a
 
 ---
 
-## 🧪 Projets à venir
 
-### 🕵️ Pentesting Web – Projet personnel
-Tests d'intrusion OWASP, scans de vulnérabilités, exploitation et remédiation.
 
 ### 🏛️ Gouvernance SSI – Projet professionnel
-Mise en place d’une politique de sécurité, analyse de risques, sensibilisation utilisateurs.
+Gouvernance et résilience cyber en milieu bancaire.
 
 ---
 
