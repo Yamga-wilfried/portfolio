@@ -18,9 +18,18 @@
   <rect width="1600" height="460" fill="url(#hexpat)"/>
   <rect x="0" y="0" width="1600" height="6" fill="url(#gold)"/>
 
-  <polygon points="1360,60 1420,95 1420,165 1360,200 1300,165 1300,95" fill="none" stroke="#D9B25B" stroke-width="2" opacity="0.55"/>
-  <polygon points="1460,140 1500,163 1500,210 1460,233 1420,210 1420,163" fill="none" stroke="#D9B25B" stroke-width="1.5" opacity="0.35"/>
+  <polygon points="1360,120 1420,155 1420,225 1360,260 1300,225 1300,155" fill="none" stroke="#D9B25B" stroke-width="2" opacity="0.55"/>
+  <polygon points="1460,200 1500,223 1500,270 1460,293 1420,270 1420,223" fill="none" stroke="#D9B25B" stroke-width="1.5" opacity="0.35"/>
   <polygon points="1250,260 1310,295 1310,365 1250,400 1190,365 1190,295" fill="none" stroke="#D9B25B" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Hexagone Bank logo mark -->
+  <g>
+    <polygon points="1312,17 1331.05,28 1331.05,50 1312,61 1292.95,50 1292.95,28" fill="#132B54" stroke="#D9B25B" stroke-width="1.5"/>
+    <polygon points="1312,26 1323.26,32.5 1323.26,45.5 1312,52 1300.74,45.5 1300.74,32.5" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+    <text x="1312" y="42" fill="#EFD48F" font-size="13" font-weight="800" text-anchor="middle">HB</text>
+    <text x="1343" y="34" fill="#FFFFFF" font-size="19" font-weight="800" letter-spacing="0.5">HEXAGONE BANK</text>
+    <text x="1343" y="49" fill="#D9B25B" font-size="8.5" font-weight="700" letter-spacing="1.5">SÉCURITÉ · CONFIANCE · RÉSILIENCE</text>
+  </g>
 
   <text x="90" y="90" fill="#D9B25B" font-size="18" letter-spacing="4" font-weight="700">MISSION RSSI · GOUVERNANCE &amp; RÉSILIENCE CYBER BANCAIRE</text>
 
