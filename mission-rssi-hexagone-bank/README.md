@@ -220,7 +220,7 @@ Trois scénarios illustrent bien la nature des enjeux traités :
 
 L'analyse EBIOS RM a établi un fait structurant : le **tiers/prestataire compromis** est l'une des sources de risque les plus pertinentes pour Hexagone Bank, et l'**administrateur système d'un prestataire** ressort comme le vecteur d'attaque le plus critique de tout l'écosystème (Atelier 3). Hexagone Bank dépend de trois prestataires critiques — **Orange CyberDefense** (SOC externalisé, supervision N2/N3), **Atos/Eviden** (tierce maintenance applicative) et **Microsoft Azure** (hébergement cloud, non qualifié SecNumCloud). Sans cadre contractuel et sans droit d'audit, cette dépendance reste un risque non maîtrisé — c'est ce que ce livrable a fermé.
 
-**Le cadre s'appuie sur ISO/IEC 27036-1 et 27036-3** (sécurité des relations fournisseurs) et sur les articles 28 à 30 de DORA relatifs à la supervision des prestataires TIC critiques. Il répond directement aux scénarios EBIOS **R5/R7** (compromission via la chaîne logicielle), **R8** (compte prestataire compromis) et **R9** (interconnexion cloud exploitée).
+**Le cadre s'appuie sur ISO/IEC 27036-1 et 27036-3** (sécurité des relations fournisseurs) et sur les articles 28 à 30 de DORA relatifs à la supervision des prestataires TIC critiques. Il répond directement aux scénarios EBIOS **R7** (compromission via la chaîne logicielle), **R8** (compte prestataire compromis) et **R9** (interconnexion cloud exploitée).
 
 **SLA contractualisé avec le SOC externalisé (Orange CyberDefense)** :
 
@@ -404,9 +404,9 @@ Enfin, cette mission m'a confirmé qu'un RSSI organisationnel ne défend pas des
 
 ## Conclusion
 
-Cette mission a été conduite comme une véritable mission de conseil : un diagnostic sans concession, une méthodologie reconnue (EBIOS Risk Manager, ISO 27001, ISO 22301, ISO 27036), et surtout une traduction constante du risque technique en décision exécutive. Le dossier produit — inventaire, cartographie, état des lieux, analyse de risques, gouvernance des tiers, continuité d'activité et feuille de route budgétée — constitue une base de décision, pas un simple rapport.
+Ce dossier relie, sans rupture, un diagnostic de maturité, une analyse de risques structurée par la méthode EBIOS Risk Manager, la gouvernance des prestataires critiques, la continuité d'activité et une trajectoire budgétée — du constat initial jusqu'à l'arbitrage du COMEX. Chaque recommandation est reliée à un actif, à un risque et à un budget ; c'est cette traçabilité, plus que le volume produit, qui en fait une base de décision.
 
-C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un risque résiduel plutôt qu'à le maquiller, et à transformer une analyse de risques en 22 M€ de trajectoire priorisée, qui résume le mieux ce que signifie, pour moi, exercer la fonction de RSSI organisationnel.
+Ce que cette mission démontre n'est pas une accumulation de contrôles techniques, mais une façon de raisonner : documenter un risque résiduel plutôt que le dissimuler, chiffrer une priorité plutôt que l'affirmer, et rattacher chaque recommandation à une décision que la Direction Générale peut réellement prendre. C'est cette discipline qui définit, pour moi, ce que signifie exercer la fonction de RSSI organisationnel.
 
 ---
 
