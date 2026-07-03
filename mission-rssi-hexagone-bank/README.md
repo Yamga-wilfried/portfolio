@@ -301,6 +301,21 @@ Le PACS n'est pas qu'un calendrier — c'est un budget structuré et défendable
 
 Un plan d'action sans gouvernance n'est qu'un document. Avec une gouvernance, c'est un programme qui vit — c'est le principe qui structure la dernière étape de la mission : ne pas livrer un rapport figé, mais un dispositif de pilotage qui survit à la restitution devant le COMEX.
 
+**Le dispositif suit la boucle d'amélioration continue ISO 27001 (Plan-Do-Check-Act)** : *Plan* = cadrage, inventaire et EBIOS RM ; *Do* = exécution du PACS et des mesures de traitement ; *Check* = indicateurs de pilotage et revue mensuelle en COPIL SSI ; *Act* = revue annuelle du dispositif et arbitrage COMEX sur les risques résiduels et le budget de l'année suivante. Ce n'est pas un audit ponctuel qui se referme — c'est un cycle qui recommence.
+
+**Qui fait quoi — matrice de responsabilités simplifiée :**
+
+| Acteur | Rôle dans la gouvernance SSI |
+|---|---|
+| COMEX / Direction Générale | **Décide** — arbitrage budgétaire, acceptation formelle des risques résiduels, sponsor de la trajectoire |
+| RSSI Organisationnel | **Pilote** — gouvernance, gestion des risques, conformité réglementaire, reporting au COMEX |
+| RSSI Opérationnel | **Exécute** — SOC, réponse à incident, sécurité applicative et infrastructure |
+| DSI / CTO | **Met en œuvre** — architecture technique, infrastructure, intégration des mesures du PACS |
+| Directions métiers | **Appliquent** — classification de leurs données, remontée des besoins de continuité (BIA) |
+| DPO *(à nommer)* | **Contrôle** — conformité RGPD, protection des données personnelles |
+| Prestataires critiques | **Rendent compte** — respect des SLA, du PAS, droit d'audit |
+| ACPR *(régulateur)* | **Supervise** — conformité DORA et arrêté du 3 novembre 2014 |
+
 **Trois instances de gouvernance, à trois échelles de temps :**
 
 | Instance | Fréquence | Rôle |
