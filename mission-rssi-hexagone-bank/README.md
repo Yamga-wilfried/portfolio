@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES — PAS CITÉS EN FAÇADE</strong></sub>
+<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES</strong></sub>
 <br/><br/>
 
 ![DORA](https://img.shields.io/badge/DORA-UE%202022%2F2554-10264A?style=flat-square)
@@ -422,7 +422,7 @@ C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un
 
 <div align="center">
 
-**Loïc Wilfried Yamga** — RSSI Organisationnel
+**Loïc Wilfried Yamga** — RSSI Group
 *Cursus spécialisé en cybersécurité, 2025-2026*
 
 [← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
