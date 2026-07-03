@@ -24,11 +24,20 @@
 
   <!-- Hexagone Bank logo mark -->
   <g>
-    <polygon points="1312,17 1331.05,28 1331.05,50 1312,61 1292.95,50 1292.95,28" fill="#132B54" stroke="#D9B25B" stroke-width="1.5"/>
-    <polygon points="1312,26 1323.26,32.5 1323.26,45.5 1312,52 1300.74,45.5 1300.74,32.5" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
-    <text x="1312" y="42" fill="#EFD48F" font-size="13" font-weight="800" text-anchor="middle">HB</text>
-    <text x="1343" y="34" fill="#FFFFFF" font-size="19" font-weight="800" letter-spacing="0.5">HEXAGONE BANK</text>
-    <text x="1343" y="49" fill="#D9B25B" font-size="8.5" font-weight="700" letter-spacing="1.5">SÉCURITÉ · CONFIANCE · RÉSILIENCE</text>
+    <polygon points="1300,16 1319.92,27.5 1319.92,50.5 1300,62 1280.08,50.5 1280.08,27.5" fill="#132B54" stroke="#F3F5F9" stroke-width="1.8"/>
+    <line x1="1300" y1="16" x2="1300" y2="39" stroke="#D9B25B" stroke-width="1.2"/>
+    <line x1="1319.92" y1="27.5" x2="1300" y2="39" stroke="#D9B25B" stroke-width="1.2"/>
+    <line x1="1319.92" y1="50.5" x2="1300" y2="39" stroke="#D9B25B" stroke-width="1.2"/>
+    <line x1="1300" y1="62" x2="1300" y2="39" stroke="#F3F5F9" stroke-width="1.2"/>
+    <line x1="1280.08" y1="50.5" x2="1300" y2="39" stroke="#F3F5F9" stroke-width="1.2"/>
+    <line x1="1280.08" y1="27.5" x2="1300" y2="39" stroke="#D9B25B" stroke-width="1.2"/>
+    <circle cx="1300" cy="39" r="2.2" fill="#D9B25B"/>
+
+    <line x1="1338" y1="14" x2="1338" y2="64" stroke="url(#gold)" stroke-width="2"/>
+
+    <text x="1354" y="34" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Georgia, 'Times New Roman', serif" letter-spacing="1">HEXAGONE</text>
+    <text x="1354" y="53" fill="#D9B25B" font-size="16" font-weight="800" font-family="Georgia, 'Times New Roman', serif" letter-spacing="3">BANK</text>
+    <text x="1354" y="65" fill="#B9C6E0" font-size="7.5" font-weight="700" letter-spacing="1.3">SÉCURITÉ · CONFIANCE · RÉSILIENCE</text>
   </g>
 
   <text x="90" y="90" fill="#D9B25B" font-size="18" letter-spacing="4" font-weight="700">MISSION RSSI · GOUVERNANCE &amp; RÉSILIENCE CYBER BANCAIRE</text>
