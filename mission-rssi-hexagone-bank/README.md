@@ -145,7 +145,42 @@ Chaque flèche est une traçabilité réelle et vérifiable dans le dossier : ch
 <summary><strong>Voir le détail de la méthode de classification des actifs</strong></summary>
 <br/>
 
-Chaque actif est noté sur une échelle **Confidentialité / Intégrité / Disponibilité de 1 à 4**, agrégée en une criticité globale (Critique / Élevée / Moyenne). Sur les 20 actifs recensés : **9 sont classés Critiques**, **8 Élevés**, **3 Moyens**. Cette classification alimente directement le calcul d'impact des scénarios EBIOS RM et la priorisation des projets du PACS — chaque actif porte une référence croisée vers les risques et les projets qui le concernent.
+<p>Chaque actif est noté sur une échelle <strong>Confidentialité / Intégrité / Disponibilité de 1 à 4</strong>, agrégée en une criticité globale (Critique / Élevée / Moyenne). Sur les 20 actifs recensés : <strong>9 sont classés Critiques</strong>, <strong>8 Élevés</strong>, <strong>3 Moyens</strong>. Cette classification alimente directement le calcul d'impact des scénarios EBIOS RM et la priorisation des projets du PACS — chaque actif porte une référence croisée vers les risques et les projets qui le concernent.</p>
+
+</details>
+
+<details>
+<summary><strong>Voir le détail de la méthode de calcul de maturité (état des lieux)</strong></summary>
+<br/>
+
+<p>L'évaluation combine une échelle qualitative à <strong>5 niveaux</strong> (inspirée d'ISO 27001, EBIOS RM et NIST CSF), regroupée en 3 paliers pour la lisibilité exécutive :</p>
+
+<table>
+<thead><tr><th>Niveau</th><th>Palier</th></tr></thead>
+<tbody>
+<tr><td>N1 — Initial / N2 — Répétable</td><td>Faible</td></tr>
+<tr><td>N3 — Défini</td><td>Moyen</td></tr>
+<tr><td>N4 — Maîtrisé / N5 — Optimisé</td><td>Élevé</td></tr>
+</tbody>
+</table>
+
+<p>Chaque domaine est noté à partir d'entretiens et d'une revue documentaire, puis positionné dans la matrice de maturité globale :</p>
+
+<table>
+<thead><tr><th>Domaine</th><th>Verdict</th></tr></thead>
+<tbody>
+<tr><td>Gouvernance SSI</td><td>Faible</td></tr>
+<tr><td>Organisation</td><td>Moyen</td></tr>
+<tr><td>Processus métiers</td><td>Faible</td></tr>
+<tr><td>Infrastructures et réseaux</td><td>Faible</td></tr>
+<tr><td>Applications</td><td>Faible</td></tr>
+<tr><td>Données</td><td>Faible</td></tr>
+<tr><td>Conformité réglementaire</td><td>Faible à moyen</td></tr>
+<tr><td>Sécurité opérationnelle</td><td>Moyen</td></tr>
+</tbody>
+</table>
+
+<p>Résultat : <strong>6 des 8 domaines classés Faible</strong>, aucun domaine Élevé — un écart structurel, cohérent sur l'ensemble du périmètre, qui justifie l'intégralité de la trajectoire PACS plutôt qu'une simple correction ponctuelle.</p>
 
 </details>
 
