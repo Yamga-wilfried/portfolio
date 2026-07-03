@@ -52,9 +52,14 @@
 - [Référentiels mobilisés](#référentiels-mobilisés)
 - [Compétences mobilisées](#compétences-mobilisées)
 - [Résultats et valeur créée](#résultats-et-valeur-créée)
+- [Gouvernance & pilotage dans la durée](#gouvernance--pilotage-dans-la-durée)
 - [Galerie visuelle](#galerie-visuelle)
 - [Ce que cette mission m'a appris sur le métier de RSSI](#ce-que-cette-mission-ma-appris-sur-le-métier-de-rssi)
 - [Conclusion](#conclusion)
+
+---
+
+> **Note de lecture** — Cette page est une synthèse. Le dossier complet compte 9 livrables et plusieurs centaines de pages (inventaire détaillé des 20 actifs, dossier EBIOS RM intégral avec ses 5 ateliers, PAS et clauses contractuelles, BIA complète, roadmap PACS projet par projet). Ce qui suit met en avant les décisions et les résultats qui comptent pour un lecteur métier — pas l'intégralité du travail, disponible sur demande.
 
 ---
 
@@ -318,6 +323,33 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable —
 ✔ **Trajectoire cyber priorisée et budgétée** — 20 projets, 22 M€ (23,5 M€ avec le PCA/PRA), méthode de scoring défendable devant un COMEX
 ✔ **Alignement réglementaire total** — DORA, RGPD, PCI DSS, ISO 27001/27005/22301 couverts et tracés
 ✔ **Vision stratégique consolidée** — restituée en 18 slides et 5 décisions concrètes demandées à la Direction Générale
+
+---
+
+## Gouvernance & pilotage dans la durée
+
+Un plan d'action sans gouvernance n'est qu'un document. Avec une gouvernance, c'est un programme qui vit — c'est le principe qui structure la dernière étape de la mission : ne pas livrer un rapport figé, mais un dispositif de pilotage qui survit à la restitution devant le COMEX.
+
+**Trois instances de gouvernance, à trois échelles de temps :**
+
+| Instance | Fréquence | Rôle |
+|---|---|---|
+| **COMEX Cyber** | Trimestriel | Arbitrage budgétaire, acceptation formelle des risques résiduels (R3, R4, R6, R8), validation des jalons de la trajectoire PACS |
+| **COPIL SSI** | Mensuel | Suivi opérationnel des 20 projets, revue des indicateurs de pilotage, arbitrage des priorités à court terme |
+| **Comité de Crise Cyber** | Déclenché à la demande | Activation du PCA/PRA en cas d'incident majeur, coordination de la cellule de crise |
+
+**Six indicateurs de pilotage suivis par le COPIL SSI et remontés au COMEX Cyber :**
+
+| Indicateur | Cible | Ce qu'il mesure |
+|---|---|---|
+| Couverture MFA | 100 % des accès sensibles | Fermeture du vecteur d'attaque le plus exploité dans les scénarios EBIOS RM |
+| Couverture bastion / PAM sur les comptes à privilèges | ≥ 95 % | Maîtrise des accès administrateurs — le vecteur jugé le plus critique de tout l'écosystème (Atelier 3) |
+| MTTD — délai moyen de détection | < 30 minutes | Réactivité du SOC face à un incident en cours |
+| MTTR — délai moyen de réponse | < 4 heures | Capacité de confinement et de remédiation |
+| Sensibilisation sécurité | 100 % des collaborateurs, chaque année | Réduction du risque humain sur 8 500 collaborateurs |
+| Évaluation des prestataires critiques | 100 % couverts par le PAS | Maîtrise continue du risque tiers (Orange CyberDefense, Atos, Azure) |
+
+Ces indicateurs ne sont pas décoratifs : chacun répond directement à une faiblesse identifiée dans l'état des lieux ou à un scénario de risque EBIOS RM — c'est la boucle de pilotage qui referme la traçabilité actif → risque → projet → indicateur.
 
 ---
 
