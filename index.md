@@ -1,4 +1,4 @@
-# 🔐 Portfolio Cyber – Loïc Wilfried YAMGA
+# 🔐 Portfolio Cyber –SOC Engineering, Governance, Risk & Compliance (GRC)
 
 Bienvenue sur mon portfolio dédié à la cybersécurité offensive, défensive et organisationnelle.  
 Vous y trouverez un ensemble de projets réalisés dans un cadre **pédagogique**, **personnel** ou **professionnel**.
