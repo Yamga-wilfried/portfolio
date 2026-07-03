@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1850 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrowGold" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B7791F"/>
+    </marker>
+  </defs>
+  <rect width="1850" height="220" fill="#FFFFFF"/>
+
+  <!-- connectors -->
+  <g stroke="#B7791F" stroke-width="2" marker-end="url(#arrowGold)">
+    <line x1="210" y1="105" x2="236" y2="105"/>
+    <line x1="410" y1="105" x2="436" y2="105"/>
+    <line x1="610" y1="105" x2="636" y2="105"/>
+    <line x1="810" y1="105" x2="836" y2="105"/>
+    <line x1="1010" y1="105" x2="1036" y2="105"/>
+    <line x1="1210" y1="105" x2="1236" y2="105"/>
+    <line x1="1410" y1="105" x2="1436" y2="105"/>
+    <line x1="1610" y1="105" x2="1636" y2="105"/>
+  </g>
+
+  <!-- 8 steps -->
+  <g font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="40" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="125" y="98">01 · Cadrage et</text>
+    <text x="125" y="118">gouvernance</text>
+
+    <rect x="240" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="325" y="98">02 · Inventaire</text>
+    <text x="325" y="118">des actifs</text>
+
+    <rect x="440" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="525" y="98">03 · Cartographie</text>
+    <text x="525" y="118">du SI</text>
+
+    <rect x="640" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="725" y="108">04 · État des lieux</text>
+
+    <rect x="840" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="925" y="98">05 · EBIOS Risk</text>
+    <text x="925" y="118">Manager</text>
+
+    <rect x="1040" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="1125" y="98">06 · Gouvernance</text>
+    <text x="1125" y="118">des prestataires</text>
+
+    <rect x="1240" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="1325" y="98">07 · Continuité</text>
+    <text x="1325" y="118">PCA / PRA</text>
+
+    <rect x="1440" y="70" width="170" height="70" rx="8" fill="#10264A" stroke="#B7791F" stroke-width="1.5"/>
+    <text x="1525" y="98">08 · PACS —</text>
+    <text x="1525" y="118">Feuille de route</text>
+
+    <rect x="1640" y="70" width="170" height="70" rx="8" fill="#B7791F" stroke="#10264A" stroke-width="1.5"/>
+    <text x="1725" y="98" fill="#10264A">Décision</text>
+    <text x="1725" y="118" fill="#10264A">COMEX</text>
+  </g>
+</svg>

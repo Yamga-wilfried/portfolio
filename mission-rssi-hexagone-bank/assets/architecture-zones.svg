@@ -1,0 +1,57 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrowZ" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#10264A"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C0392B"/>
+    </marker>
+  </defs>
+  <rect width="900" height="700" fill="#FFFFFF"/>
+
+  <!-- main chain -->
+  <g stroke="#10264A" stroke-width="2" marker-end="url(#arrowZ)" fill="none">
+    <line x1="500" y1="90" x2="500" y2="146"/>
+    <line x1="500" y1="200" x2="500" y2="256"/>
+    <line x1="500" y1="310" x2="500" y2="366"/>
+    <line x1="500" y1="420" x2="500" y2="476"/>
+    <line x1="500" y1="530" x2="500" y2="586"/>
+  </g>
+  <!-- branch to PRA -->
+  <line x1="610" y1="285" x2="700" y2="335" stroke="#10264A" stroke-width="2" marker-end="url(#arrowZ)" fill="none"/>
+  <!-- prestataires dotted into securite -->
+  <line x1="220" y1="395" x2="390" y2="395" stroke="#C0392B" stroke-width="2" stroke-dasharray="6,5" marker-end="url(#arrowR)" fill="none"/>
+
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="370" y="30" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="66" fill="#10264A">Internet / DMZ</text>
+
+    <rect x="370" y="146" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="172" fill="#10264A">Cloud Azure</text>
+    <text x="500" y="190" font-weight="400" font-size="12" fill="#5A6B8C">(non SecNumCloud)</text>
+
+    <rect x="370" y="256" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="282" fill="#10264A">Core Banking</text>
+    <text x="500" y="300" font-weight="400" font-size="12" fill="#5A6B8C">HexaCore</text>
+
+    <rect x="370" y="366" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="392" fill="#10264A">Zone Sécurité</text>
+    <text x="500" y="410" font-weight="400" font-size="12" fill="#5A6B8C">SIEM / SOC / Bastion</text>
+
+    <rect x="370" y="476" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="512" fill="#10264A">Zone Applicative</text>
+
+    <rect x="370" y="586" width="260" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="500" y="622" fill="#10264A">Zone Utilisateurs</text>
+
+    <rect x="700" y="310" width="180" height="60" rx="8" fill="#F1F4FA" stroke="#10264A" stroke-width="1.5"/>
+    <text x="790" y="336" fill="#10264A">Zone PRA / Backup</text>
+    <text x="790" y="354" font-weight="400" font-size="12" fill="#5A6B8C">DC2, Lille</text>
+
+    <rect x="20" y="366" width="200" height="60" rx="8" fill="#FCE1DE" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="120" y="392" fill="#7B241C" font-size="13">Prestataires externes</text>
+    <text x="120" y="410" font-weight="400" font-size="11.5" fill="#7B241C">Atos · Orange CyberDefense</text>
+  </g>
+
+  <text x="120" y="450" font-size="11" fill="#C0392B" text-anchor="middle" font-style="italic">accès distant</text>
+</svg>

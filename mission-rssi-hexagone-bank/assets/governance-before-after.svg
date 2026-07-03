@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1600 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrowBad" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C0392B"/>
+    </marker>
+    <marker id="arrowGood" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1E8449"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="460" fill="#FFFFFF"/>
+
+  <!-- panel titles -->
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#7B241C">POSITIONNEMENT ACTUEL — GAP D'INDÉPENDANCE</text>
+  <text x="1220" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#14532D">POSITIONNEMENT CIBLE — DÉCISION COMEX DEMANDÉE</text>
+  <line x1="780" y1="20" x2="780" y2="440" stroke="#E2E6EF" stroke-width="1.5"/>
+
+  <!-- AVANT tree -->
+  <g stroke="#C0392B" stroke-width="2" marker-end="url(#arrowBad)" fill="none">
+    <line x1="380" y1="100" x2="380" y2="146"/>
+    <line x1="380" y1="200" x2="290" y2="256"/>
+    <line x1="380" y1="200" x2="470" y2="256"/>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="280" y="60" width="200" height="40" rx="8" fill="#FCE1DE" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="380" y="85" fill="#7B241C">Direction Générale</text>
+
+    <rect x="280" y="150" width="200" height="40" rx="8" fill="#FCE1DE" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="380" y="175" fill="#7B241C">DSI</text>
+
+    <rect x="180" y="260" width="200" height="50" rx="8" fill="#FCE1DE" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="280" y="282" fill="#7B241C" font-size="12.5">RSSI</text>
+    <text x="280" y="298" fill="#7B241C" font-size="12.5">Organisationnel</text>
+
+    <rect x="400" y="260" width="200" height="50" rx="8" fill="#FCE1DE" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="500" y="282" fill="#7B241C" font-size="12.5">RSSI</text>
+    <text x="500" y="298" fill="#7B241C" font-size="12.5">Opérationnel</text>
+  </g>
+
+  <!-- CIBLE tree -->
+  <g stroke="#1E8449" stroke-width="2" marker-end="url(#arrowGood)" fill="none">
+    <line x1="1220" y1="100" x2="1010" y2="196"/>
+    <line x1="1220" y1="100" x2="1220" y2="196"/>
+    <line x1="1220" y1="100" x2="1430" y2="196"/>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="1100" y="60" width="240" height="40" rx="8" fill="#E9F7EF" stroke="#1E8449" stroke-width="1.5"/>
+    <text x="1220" y="85" fill="#14532D">Direction Générale / COMEX</text>
+
+    <rect x="910" y="200" width="200" height="50" rx="8" fill="#E9F7EF" stroke="#1E8449" stroke-width="1.5"/>
+    <text x="1010" y="222" fill="#14532D" font-size="12.5">RSSI</text>
+    <text x="1010" y="238" fill="#14532D" font-size="12.5">Organisationnel</text>
+
+    <rect x="1120" y="200" width="200" height="50" rx="8" fill="#E9F7EF" stroke="#1E8449" stroke-width="1.5"/>
+    <text x="1220" y="222" fill="#14532D" font-size="12.5">RSSI</text>
+    <text x="1220" y="238" fill="#14532D" font-size="12.5">Opérationnel</text>
+
+    <rect x="1330" y="200" width="200" height="50" rx="8" fill="#E9F7EF" stroke="#1E8449" stroke-width="1.5"/>
+    <text x="1430" y="222" fill="#14532D" font-size="12.5">DPO</text>
+    <text x="1430" y="238" fill="#14532D" font-size="12.5">à nommer</text>
+  </g>
+
+  <text x="380" y="400" text-anchor="middle" font-size="12.5" font-style="italic" fill="#7B241C">RSSI rattaché à la DSI — pas d'accès direct au COMEX</text>
+  <text x="1220" y="330" text-anchor="middle" font-size="12.5" font-style="italic" fill="#14532D">RSSI et DPO rattachés directement à la Direction Générale</text>
+</svg>

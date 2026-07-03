@@ -120,22 +120,7 @@ Hexagone Bank n'avait ni cartographie fiable de ses actifs, ni analyse de risque
 
 La mission suit une chaîne méthodologique continue, où chaque étape nourrit la suivante — de la connaissance du terrain jusqu'à la décision budgétaire.
 
-```mermaid
-flowchart LR
-    A["01 · Cadrage et gouvernance"] --> B["02 · Inventaire des actifs"]
-    B --> C["03 · Cartographie du SI"]
-    C --> D["04 · État des lieux"]
-    D --> E["05 · EBIOS Risk Manager"]
-    E --> F["06 · Gouvernance des prestataires"]
-    F --> G["07 · Continuité PCA / PRA"]
-    G --> H["08 · PACS — Feuille de route"]
-    H --> I["Décision COMEX"]
-
-    classDef step fill:#10264A,stroke:#B7791F,stroke-width:2px,color:#ffffff
-    classDef final fill:#B7791F,stroke:#10264A,stroke-width:2px,color:#ffffff
-    class A,B,C,D,E,F,G,H step
-    class I final
-```
+<img src="assets/methodology-pipeline.svg" alt="Méthodologie de la mission — 8 étapes de la gouvernance à la décision COMEX" width="100%"/>
 
 Chaque flèche est une traçabilité réelle et vérifiable dans le dossier : chacun des **20 actifs** de l'inventaire est relié à un ou plusieurs **scénarios de risque EBIOS RM**, eux-mêmes reliés à un ou plusieurs **projets du PACS**. Aucune action de la feuille de route ne relève de l'intuition — chacune répond à un risque tracé et priorisé selon une grille de score.
 
@@ -170,16 +155,7 @@ Chaque actif est noté sur une échelle **Confidentialité / Intégrité / Dispo
 
 L'analyse de risques suit intégralement la méthode nationale de l'ANSSI, dans sa structure en cinq ateliers :
 
-```mermaid
-flowchart LR
-    W1["Atelier 1<br/>Cadrage et socle<br/>de sécurité"] --> W2["Atelier 2<br/>Sources de<br/>risque"]
-    W2 --> W3["Atelier 3<br/>Scénarios<br/>stratégiques"]
-    W3 --> W4["Atelier 4<br/>Scénarios<br/>opérationnels"]
-    W4 --> W5["Atelier 5<br/>Traitement<br/>du risque"]
-
-    classDef w fill:#1B3A6B,stroke:#D9B25B,stroke-width:2px,color:#ffffff
-    class W1,W2,W3,W4,W5 w
-```
+<img src="assets/ebios-workshops.svg" alt="Les 5 ateliers EBIOS Risk Manager" width="100%"/>
 
 **Atelier 1** identifie 4 valeurs métier critiques (services bancaires essentiels, sécurisation des paiements, protection des données sensibles, gouvernance/résilience du SI) et 16 événements redoutés, notés sur une échelle de gravité G1 (mineur) à G4 (critique, survie de l'établissement menacée).
 
@@ -356,42 +332,11 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable —
 
 **Architecture de sécurité simplifiée — 7 zones, actifs pivots**
 
-```mermaid
-flowchart TB
-    INTERNET["Internet / DMZ"] --> CLOUD["Cloud Azure<br/>(non SecNumCloud)"]
-    CLOUD --> COREZ["Zone Core Banking<br/>HexaCore"]
-    COREZ --> SECZ["Zone Sécurité<br/>SIEM / SOC / Bastion"]
-    SECZ --> APPZ["Zone Applicative"]
-    APPZ --> USERZ["Zone Utilisateurs"]
-    COREZ --> PRAZ["Zone PRA / Backup<br/>DC2 Lille"]
-    EXT["Prestataires externes<br/>Atos · Orange CyberDefense"] -. accès distant .-> SECZ
-
-    classDef zone fill:#F1F4FA,stroke:#10264A,color:#10264A,stroke-width:1.5px
-    classDef risk fill:#FCE1DE,stroke:#C0392B,color:#7B241C,stroke-width:1.5px
-    class INTERNET,CLOUD,COREZ,SECZ,APPZ,USERZ,PRAZ zone
-    class EXT risk
-```
+<img src="assets/architecture-zones.svg" alt="Architecture de sécurité simplifiée — 7 zones et actifs pivots" width="60%"/>
 
 **Positionnement du RSSI — situation actuelle vs. cible recommandée au COMEX**
 
-```mermaid
-flowchart TB
-  subgraph AVANT["Positionnement actuel — gap d'indépendance"]
-    DG1["Direction Générale"] --> DSI1["DSI"]
-    DSI1 --> RSSI1["RSSI Organisationnel"]
-    DSI1 --> RSSI2["RSSI Opérationnel"]
-  end
-  subgraph CIBLE["Positionnement cible — décision COMEX demandée"]
-    DG2["Direction Générale / COMEX"] --> RSSI3["RSSI Organisationnel"]
-    DG2 --> RSSI4["RSSI Opérationnel"]
-    DG2 --> DPO1["DPO — à nommer"]
-  end
-
-  classDef bad fill:#FCE1DE,stroke:#C0392B,color:#7B241C
-  classDef good fill:#E9F7EF,stroke:#1E8449,color:#14532D
-  class DG1,DSI1,RSSI1,RSSI2 bad
-  class DG2,RSSI3,RSSI4,DPO1 good
-```
+<img src="assets/governance-before-after.svg" alt="Positionnement du RSSI — situation actuelle vs cible recommandée au COMEX" width="100%"/>
 
 ---
 

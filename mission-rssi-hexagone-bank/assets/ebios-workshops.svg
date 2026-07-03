@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1400 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrowGold2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D9B25B"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="220" fill="#FFFFFF"/>
+
+  <g stroke="#D9B25B" stroke-width="2" marker-end="url(#arrowGold2)">
+    <line x1="260" y1="110" x2="296" y2="110"/>
+    <line x1="520" y1="110" x2="556" y2="110"/>
+    <line x1="780" y1="110" x2="816" y2="110"/>
+    <line x1="1040" y1="110" x2="1076" y2="110"/>
+  </g>
+
+  <g font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="40" y="65" width="220" height="90" rx="8" fill="#1B3A6B" stroke="#D9B25B" stroke-width="1.5"/>
+    <text x="150" y="90">Atelier 1</text>
+    <text x="150" y="112" font-weight="400" font-size="13">Cadrage et socle</text>
+    <text x="150" y="130" font-weight="400" font-size="13">de sécurité</text>
+
+    <rect x="300" y="65" width="220" height="90" rx="8" fill="#1B3A6B" stroke="#D9B25B" stroke-width="1.5"/>
+    <text x="410" y="90">Atelier 2</text>
+    <text x="410" y="112" font-weight="400" font-size="13">Sources de</text>
+    <text x="410" y="130" font-weight="400" font-size="13">risque</text>
+
+    <rect x="560" y="65" width="220" height="90" rx="8" fill="#1B3A6B" stroke="#D9B25B" stroke-width="1.5"/>
+    <text x="670" y="90">Atelier 3</text>
+    <text x="670" y="112" font-weight="400" font-size="13">Scénarios</text>
+    <text x="670" y="130" font-weight="400" font-size="13">stratégiques</text>
+
+    <rect x="820" y="65" width="220" height="90" rx="8" fill="#1B3A6B" stroke="#D9B25B" stroke-width="1.5"/>
+    <text x="930" y="90">Atelier 4</text>
+    <text x="930" y="112" font-weight="400" font-size="13">Scénarios</text>
+    <text x="930" y="130" font-weight="400" font-size="13">opérationnels</text>
+
+    <rect x="1080" y="65" width="220" height="90" rx="8" fill="#1B3A6B" stroke="#D9B25B" stroke-width="1.5"/>
+    <text x="1190" y="90">Atelier 5</text>
+    <text x="1190" y="112" font-weight="400" font-size="13">Traitement</text>
+    <text x="1190" y="130" font-weight="400" font-size="13">du risque</text>
+  </g>
+</svg>
