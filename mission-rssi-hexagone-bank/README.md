@@ -2,36 +2,35 @@
 
 <img src="assets/hero-banner.svg" alt="Hexagone Bank — Mission RSSI, gouvernance et résilience cyber bancaire" width="100%"/>
 
-<br/>
-
-![Statut](https://img.shields.io/badge/Statut-Mission%20finalis%C3%A9e-1E8449?style=flat-square)
-![Secteur](https://img.shields.io/badge/Secteur-Bancaire%20%2F%20Finance-10264A?style=flat-square)
-![Périmètre](https://img.shields.io/badge/P%C3%A9rim%C3%A8tre-Gouvernance%20SSI%20%26%20R%C3%A9silience-B7791F?style=flat-square)
-![Méthode](https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square)
-![Budget](https://img.shields.io/badge/Trajectoire-22%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square)
-
-*Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste) par Loïc Wilfried Yamga, dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026.*
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES — PAS CITÉS EN FAÇADE</strong></sub>
 <br/><br/>
 
-![DORA](https://img.shields.io/badge/DORA-UE%202022%2F2554-10264A?style=flat-square)
-![RGPD](https://img.shields.io/badge/RGPD-UE%202016%2F679-10264A?style=flat-square)
-![ACPR](https://img.shields.io/badge/ACPR-Art.%2069%20%2F%202014-10264A?style=flat-square)
-![PCI DSS](https://img.shields.io/badge/PCI%20DSS-v4.0-B7791F?style=flat-square)
-![ISO 27001](https://img.shields.io/badge/ISO%2FIEC-27001%3A2022-B7791F?style=flat-square)
-![ISO 27005](https://img.shields.io/badge/ISO%2FIEC-27005%3A2022-B7791F?style=flat-square)
-![ISO 27036](https://img.shields.io/badge/ISO%2FIEC-27036-B7791F?style=flat-square)
-![ISO 22301](https://img.shields.io/badge/ISO-22301%3A2019-B7791F?style=flat-square)
-![EBIOS RM](https://img.shields.io/badge/ANSSI-EBIOS%20Risk%20Manager-1E8449?style=flat-square)
-![SecNumCloud](https://img.shields.io/badge/ANSSI-SecNumCloud-1E8449?style=flat-square)
-![NIST CSF](https://img.shields.io/badge/NIST-CSF-1E8449?style=flat-square)
+<img src="https://img.shields.io/badge/Statut-Mission%20finalis%C3%A9e-1E8449?style=flat-square" alt="Statut"/>
+<img src="https://img.shields.io/badge/Secteur-Bancaire%20%2F%20Finance-10264A?style=flat-square" alt="Secteur"/>
+<img src="https://img.shields.io/badge/P%C3%A9rim%C3%A8tre-Gouvernance%20SSI%20%26%20R%C3%A9silience-B7791F?style=flat-square" alt="Périmètre"/>
+<img src="https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square" alt="Méthode"/>
+<img src="https://img.shields.io/badge/Trajectoire-22%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square" alt="Budget"/>
+
+<br/><br/>
+
+<em>Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste) par Loïc Wilfried Yamga, dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026.</em>
+
+<br/><br/>
+
+<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES — PAS CITÉS EN FAÇADE</strong></sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/DORA-UE%202022%2F2554-10264A?style=flat-square" alt="DORA"/>
+<img src="https://img.shields.io/badge/RGPD-UE%202016%2F679-10264A?style=flat-square" alt="RGPD"/>
+<img src="https://img.shields.io/badge/ACPR-Art.%2069%20%2F%202014-10264A?style=flat-square" alt="ACPR"/>
+<img src="https://img.shields.io/badge/PCI%20DSS-v4.0-B7791F?style=flat-square" alt="PCI DSS"/>
+<img src="https://img.shields.io/badge/ISO%2FIEC-27001%3A2022-B7791F?style=flat-square" alt="ISO 27001"/>
+<img src="https://img.shields.io/badge/ISO%2FIEC-27005%3A2022-B7791F?style=flat-square" alt="ISO 27005"/>
+<img src="https://img.shields.io/badge/ISO%2FIEC-27036-B7791F?style=flat-square" alt="ISO 27036"/>
+<img src="https://img.shields.io/badge/ISO-22301%3A2019-B7791F?style=flat-square" alt="ISO 22301"/>
+<img src="https://img.shields.io/badge/ANSSI-EBIOS%20Risk%20Manager-1E8449?style=flat-square" alt="EBIOS RM"/>
+<img src="https://img.shields.io/badge/ANSSI-SecNumCloud-1E8449?style=flat-square" alt="SecNumCloud"/>
+<img src="https://img.shields.io/badge/NIST-CSF-1E8449?style=flat-square" alt="NIST CSF"/>
 
 </div>
 
@@ -355,8 +354,6 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable —
 
 ## Galerie visuelle
 
-<div align="center">
-
 **Architecture de sécurité simplifiée — 7 zones, actifs pivots**
 
 ```mermaid
@@ -396,8 +393,6 @@ flowchart TB
   class DG2,RSSI3,RSSI4,DPO1 good
 ```
 
-</div>
-
 ---
 
 ## Ce que cette mission m'a appris sur le métier de RSSI
@@ -420,11 +415,7 @@ C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un
 
 ---
 
-<div align="center">
-
 **Loïc Wilfried Yamga** — RSSI Organisationnel
 *Cursus spécialisé en cybersécurité, 2025-2026*
 
 [← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
-
-</div>
