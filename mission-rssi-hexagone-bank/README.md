@@ -10,7 +10,28 @@
 ![Méthode](https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square)
 ![Budget](https://img.shields.io/badge/Trajectoire-23%2C9%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square)
 
-*Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste). Mission menée en binôme dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026. Ce document restitue le rôle de **RSSI Organisationnel**, tenu par Loïc Wilfried Yamga.*
+*Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste) par Loïc Wilfried Yamga, dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026.*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES — PAS CITÉS EN FAÇADE</strong></sub>
+<br/><br/>
+
+![DORA](https://img.shields.io/badge/DORA-UE%202022%2F2554-10264A?style=flat-square)
+![RGPD](https://img.shields.io/badge/RGPD-UE%202016%2F679-10264A?style=flat-square)
+![ACPR](https://img.shields.io/badge/ACPR-Art.%2069%20%2F%202014-10264A?style=flat-square)
+![PCI DSS](https://img.shields.io/badge/PCI%20DSS-v4.0-B7791F?style=flat-square)
+![ISO 27001](https://img.shields.io/badge/ISO%2FIEC-27001%3A2022-B7791F?style=flat-square)
+![ISO 27005](https://img.shields.io/badge/ISO%2FIEC-27005%3A2022-B7791F?style=flat-square)
+![ISO 27036](https://img.shields.io/badge/ISO%2FIEC-27036-B7791F?style=flat-square)
+![ISO 22301](https://img.shields.io/badge/ISO-22301%3A2019-B7791F?style=flat-square)
+![EBIOS RM](https://img.shields.io/badge/ANSSI-EBIOS%20Risk%20Manager-1E8449?style=flat-square)
+![SecNumCloud](https://img.shields.io/badge/ANSSI-SecNumCloud-1E8449?style=flat-square)
+![NIST CSF](https://img.shields.io/badge/NIST-CSF-1E8449?style=flat-square)
 
 </div>
 
@@ -25,6 +46,8 @@
 - [Méthodologie](#méthodologie)
 - [Livrables clés](#livrables-clés)
 - [Analyse de risques EBIOS Risk Manager — le cœur de la mission](#analyse-de-risques-ebios-risk-manager--le-cœur-de-la-mission)
+- [Gouvernance des prestataires — SLA & PAS](#gouvernance-des-prestataires--sla--plan-dassurance-sécurité)
+- [Continuité d'activité — PCA/PRA](#continuité-dactivité--pcapra)
 - [Trajectoire cybersécurité — PACS 2025-2027](#trajectoire-cybersécurité--pacs-2025-2027)
 - [Référentiels mobilisés](#référentiels-mobilisés)
 - [Compétences mobilisées](#compétences-mobilisées)
@@ -39,7 +62,7 @@
 
 Hexagone Bank est un établissement bancaire de 8 500 collaborateurs, 185 agences et 4,2 milliards d'euros de chiffre d'affaires annuel, entré en 2025 dans le champ d'application de **DORA** (Digital Operational Resilience Act), le règlement européen qui fait désormais office de *lex specialis* pour la résilience numérique du secteur financier.
 
-À la demande de la Direction Générale, j'ai conduit — aux côtés de mon binôme opérationnel — la mission de structuration complète de la gouvernance cybersécurité de l'établissement : de l'inventaire des actifs jusqu'à la feuille de route budgétée, en passant par un audit de maturité, une analyse de risques EBIOS Risk Manager, la refonte de la gouvernance des prestataires critiques et la conception du plan de continuité d'activité.
+À la demande de la Direction Générale, j'ai conduit la mission de structuration complète de la gouvernance cybersécurité de l'établissement : de l'inventaire des actifs jusqu'à la feuille de route budgétée, en passant par un audit de maturité, une analyse de risques EBIOS Risk Manager, la refonte de la gouvernance des prestataires critiques et la conception du plan de continuité d'activité.
 
 Le résultat : un état des lieux sans concession (maturité **faible à moyenne** sur 6 des 8 domaines audités), une cartographie précise de **9 scénarios de risque** dont **4 restent non acceptables** après traitement — nécessitant un arbitrage formel du COMEX — et une trajectoire de transformation chiffrée à **23,9 M€ sur trois ans**, structurée en **20 projets** répartis en 3 vagues de priorité.
 
@@ -85,7 +108,7 @@ Hexagone Bank n'avait ni cartographie fiable de ses actifs, ni analyse de risque
 4. **Sécuriser la chaîne de sous-traitance**, un vecteur de compromission identifié comme structurellement critique (Atos TMA, Orange CyberDefense, Azure).
 5. **Garantir la continuité des activités essentielles** — paiements, comptes clients, supervision sécurité — avec des objectifs de reprise chiffrés.
 6. **Prioriser objectivement l'investissement cyber** dans un cadre budgétaire contraint, avec une méthode de scoring défendable devant un COMEX.
-7. **Porter la décision au bon niveau** : transformer un audit technique en un arbitrage exécutif documenté.
+7. **Porter la décision au bon niveau** : transformer un diagnostic technique en un arbitrage exécutif documenté.
 
 ---
 
@@ -97,7 +120,7 @@ La mission suit une chaîne méthodologique continue, où chaque étape nourrit 
 flowchart LR
     A["01 · Cadrage et gouvernance"] --> B["02 · Inventaire des actifs"]
     B --> C["03 · Cartographie du SI"]
-    C --> D["04 · Audit de maturité"]
+    C --> D["04 · État des lieux"]
     D --> E["05 · EBIOS Risk Manager"]
     E --> F["06 · Gouvernance des prestataires"]
     F --> G["07 · Continuité PCA / PRA"]
@@ -122,7 +145,7 @@ Chaque flèche est une traçabilité réelle et vérifiable dans le dossier : ch
 |---|---|---|
 | 01 | **Fiche d'identité & organigramme** | Modélisation du modèle d'affaires bancaire et du gouvernement d'entreprise ; mise en évidence du rattachement du RSSI à la DSI plutôt qu'à la DG — premier gap de gouvernance identifié |
 | 02 – 03 | **Inventaire des actifs & cartographie du SI** | 20 actifs critiques classés (échelle DIC 1-4), répartis en 7 zones de sécurité, avec identification de **4 actifs pivots** (Active Directory, IAM, Core Banking, Cloud Azure) dont la compromission entraîne un effet de cascade sur le reste du SI |
-| 04 | **Audit interne de sécurité** | Évaluation de maturité sur 8 domaines selon une échelle N1 (Initial) → N5 (Optimisé) inspirée d'ISO 27001, EBIOS RM et NIST CSF — verdict global : **maturité faible à moyenne**, avec analyse de causes racines |
+| 04 | **État des lieux de sécurité** | Évaluation de maturité sur 8 domaines selon une échelle N1 (Initial) → N5 (Optimisé) inspirée d'ISO 27001, EBIOS RM et NIST CSF — verdict global : **maturité faible à moyenne**, avec analyse de causes racines |
 | 05 | **Analyse de risques EBIOS Risk Manager** | Les 5 ateliers ANSSI menés intégralement — 4 valeurs métier, 8 sources de risque, 14 parties prenantes évaluées, **9 scénarios de risque consolidés**, dont 4 résiduels non acceptables |
 | 06 | **Gouvernance des prestataires (SLA + PAS)** | Cadre ISO 27036 appliqué au SOC externalisé (Orange CyberDefense) : SLA chiffrés (GTI/GTR), plan d'audit prestataire sur 6 domaines, grille de scoring et clauses de remédiation |
 | 07 | **Plan de continuité et de reprise d'activité** | BIA sur 8 processus critiques, RTO/RPO chiffrés (de 30 minutes à 72 heures selon criticité), organisation de crise en 4 phases, budget dédié de 1,9 M€ |
@@ -178,9 +201,72 @@ Trois scénarios illustrent bien la nature des enjeux traités :
 
 ---
 
+## Gouvernance des prestataires — SLA & Plan d'Assurance Sécurité
+
+L'analyse EBIOS RM a établi un fait structurant : le **tiers/prestataire compromis** est l'une des sources de risque les plus pertinentes pour Hexagone Bank, et l'**administrateur système d'un prestataire** ressort comme le vecteur d'attaque le plus critique de tout l'écosystème (Atelier 3). Hexagone Bank dépend de trois prestataires critiques — **Orange CyberDefense** (SOC externalisé, supervision N2/N3), **Atos/Eviden** (tierce maintenance applicative) et **Microsoft Azure** (hébergement cloud, non qualifié SecNumCloud). Sans cadre contractuel et sans droit d'audit, cette dépendance reste un risque non maîtrisé — c'est ce que ce livrable a fermé.
+
+**Le cadre s'appuie sur ISO/IEC 27036-1 et 27036-3** (sécurité des relations fournisseurs) et sur les articles 28 à 30 de DORA relatifs à la supervision des prestataires TIC critiques. Il répond directement aux scénarios EBIOS **R5/R7** (compromission via la chaîne logicielle), **R8** (compte prestataire compromis) et **R9** (interconnexion cloud exploitée).
+
+**SLA contractualisé avec le SOC externalisé (Orange CyberDefense)** :
+
+| Sévérité | Délai de prise en charge (GTI) | Délai de résolution (GTR) |
+|---|---|---|
+| G4 — Critique | 1 heure | 4 heures |
+| G3 — Grave | 2 heures | 8 heures |
+| G2 — Majeure | 3 heures | 24 heures |
+| G1 — Mineure | 4 heures | 5 jours ouvrés |
+
+- **Disponibilité contractualisée** : SOC ≥ 99,9 % · portail client ≥ 99,5 % · plateforme de supervision ≥ 99,9 %
+- **Notification d'incident au client : 4 heures maximum** — délibérément plus courte que les 72 heures imposées par le RGPD à la banque envers la CNIL, pour lui laisser le temps d'instruire son dossier
+- **Pénalités contractuelles** : 5 % de la facturation mensuelle en cas de GTI G4 manqué, 10 % pour un GTR G4 manqué, jusqu'à 15 % en cas de notification tardive d'un incident majeur
+- **Hébergement des données limité à l'UE**, tout transfert hors UE soumis à autorisation écrite préalable
+- **Droit d'audit annuel**, ou déclenché après tout incident majeur
+
+**Le Plan d'Assurance Sécurité (PAS)** structure l'évaluation de tout prestataire critique sur 6 domaines — gouvernance SSI, IAM/PAM, SOC & détection, gestion des vulnérabilités, protection des données (RGPD), continuité d'activité — sur la base de **17 preuves documentaires obligatoires** (certificat ISO 27001, politique SSI, pentest de moins de 12 mois, PCA/PRA et rapport de test, attestation d'assurance cyber, registre RGPD…). L'absence d'une seule preuve vaut non-conformité documentaire automatique.
+
+| Taux de conformité | Verdict | Délai de remédiation |
+|---|---|---|
+| 85-100 % | Conforme | — |
+| 70-84 % | Conforme avec réserves | Selon criticité de l'écart |
+| 50-69 % | Plan d'action correctif obligatoire | 30 j (critique) / 60 j (majeur) / 90 j (mineur) |
+| < 50 % | Prestataire rejeté | — |
+
+---
+
+## Continuité d'activité — PCA/PRA
+
+Un risque bien analysé et un prestataire bien audité ne suffisent pas si Hexagone Bank ne sait pas *encaisser* un incident majeur. Le PCA/PRA répond directement aux scénarios EBIOS les plus graves — ransomware généralisé, fraude sur les paiements, compromission massive de données, défaillance d'un prestataire critique — en fixant, activité par activité, le temps que la banque peut tenir avant que l'indisponibilité devienne elle-même une crise.
+
+**Piloté en tant que RSSI Organisationnel**, conformément à l'article 269 de l'arrêté ACPR du 3 novembre 2014 et à l'article 11 de DORA, avec un comité de pilotage réunissant DG, DSI, CTO, DRH, Finance, Assurance et le SOC externalisé.
+
+**Analyse d'impact métier (BIA) — 8 activités critiques classées par ordre de priorité de reprise :**
+
+| Activité | RTO (reprise) | RPO (perte de données max.) |
+|---|---|---|
+| Supervision sécurité & gestion d'incident | **30 min** | 5 min |
+| Paiements & virements | 1 h | 5 min |
+| Banque en ligne | 2 h | 15 min |
+| Comptes clients | 4 h | 15 min |
+| Conformité réglementaire & financière | 8 h | 30 min |
+| Crédit & financement | 24 h | 1 h |
+| Assurance | 24 h | 1 h |
+| Ressources humaines | 72 h | 24 h |
+
+> La supervision sécurité est reprise *avant* les paiements — reprendre l'activité sans avoir repris le contrôle de l'environnement serait rouvrir la porte à l'attaquant.
+
+**5 scénarios de continuité, tracés directement aux risques EBIOS RM** : PCA1 ransomware généralisé sur le SI (Très élevé), PCA2 fraude sur les paiements via compromission IAM (Très élevé), PCA3 compromission massive de données clients (Critique), PCA4 compromission de la chaîne d'approvisionnement logicielle (Très élevé), PCA5 défaillance d'un prestataire critique — SOC, cloud ou TMA (Élevé).
+
+**Organisation de crise en 4 phases** : détection & qualification → fonctionnement en mode dégradé → bascule sur site de secours (DC2, Lille) → retour à la normale. Cellule de crise dirigée par la Direction Générale, avec un rôle de coordination PCA assuré au titre de RSSI Organisationnel.
+
+**Dispositif de test — la continuité n'est crédible que si elle est exercée** : un exercice de gestion de crise par an, un test PRA complet par an, des tests trimestriels de sauvegarde/restauration, et un RETEX systématique après chaque activation ou incident majeur.
+
+**Budget dédié : 1,9 M€**, intégré à l'enveloppe cyber globale — renforcement des sauvegardes (300 k€), solutions de redondance (800 k€), infrastructure réseau (400 k€), exercices de crise (100 k€), continuité du travail à distance sécurisé (150 k€), audits fournisseurs (100 k€), formation (50 k€).
+
+---
+
 ## Trajectoire cybersécurité — PACS 2025-2027
 
-Vingt scénarios de risque et un audit de maturité ne valent rien sans une trajectoire d'investissement crédible. Le PACS (Plan d'Action Cybersécurité) traduit chaque risque en projet, chaque projet en budget, et chaque budget en décision.
+Vingt scénarios de risque et un état des lieux de maturité ne valent rien sans une trajectoire d'investissement crédible. Le PACS (Plan d'Action Cybersécurité) traduit chaque risque en projet, chaque projet en budget, et chaque budget en décision.
 
 **La méthode de priorisation est volontairement objective et reproductible** :
 
@@ -198,22 +284,27 @@ Le PACS n'est pas qu'un calendrier — c'est un budget structuré et défendable
 
 ## Référentiels mobilisés
 
-| Référentiel | Rôle dans la mission |
-|---|---|
-| **DORA** (UE 2022/2554) | Cadre de résilience opérationnelle numérique du secteur financier, en vigueur depuis le 17/01/2025 — traité comme *lex specialis*, prioritaire sur NIS2 (art. 1§2) |
-| **PCI DSS v4.0** | Sécurisation des flux et données de paiement par carte |
-| **ISO/IEC 27001:2022** | Structuration du système de management de la sécurité de l'information |
-| **ISO/IEC 27005:2022** | Méthodologie d'appréciation et de traitement des risques SSI |
-| **ISO/IEC 27036** | Sécurité des relations avec les fournisseurs et prestataires (SOC, TMA, cloud) |
-| **ISO 22301:2019** | Système de management de la continuité d'activité — socle du PCA/PRA |
-| **EBIOS Risk Manager** (ANSSI) | Méthode nationale d'analyse de risque par scénarios — colonne vertébrale de la mission |
-| **RGPD & ACPR** | Conformité protection des données et exigences de contrôle interne bancaire français |
+Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable — pas une liste de mots-clés en bas de page.
+
+| Référentiel | Rôle dans la mission | Preuve concrète dans le dossier |
+|---|---|---|
+| **DORA** (UE 2022/2554) | Cadre de résilience opérationnelle numérique du secteur financier, en vigueur depuis le 17/01/2025 — traité comme *lex specialis*, prioritaire sur NIS2 (art. 1§2) | Déclencheur de toute la mission ; art. 5§2 cité pour justifier l'acceptation formelle des 4 risques résiduels par le COMEX ; art. 28-30 structurant la gouvernance des prestataires |
+| **RGPD** (UE 2016/679) | Conformité sur la protection des données à caractère personnel | Notification de violation à 4h (fournisseur) pour tenir le délai légal de 72h à la CNIL ; classification des données clients (KYC) |
+| **ACPR** (Arrêté du 3 nov. 2014) | Exigences de contrôle interne des établissements de crédit français | Article 269 cité comme fondement réglementaire du PCA/PRA |
+| **PCI DSS v4.0** | Sécurisation des flux et données de paiement par carte | Constat de non-conformité sur la plateforme SEPA/SWIFT lors de l'état des lieux — remédiation intégrée au PACS |
+| **ISO/IEC 27001:2022** | Structuration du système de management de la sécurité de l'information | Structure la gouvernance SSI cible et l'échelle de maturité N1→N5 de l'état des lieux |
+| **ISO/IEC 27005:2022** | Méthodologie d'appréciation et de traitement des risques SSI | Cadre complémentaire à EBIOS RM pour la qualification des risques |
+| **ISO/IEC 27036** | Sécurité des relations avec les fournisseurs et prestataires (SOC, TMA, cloud) | Fondement du Plan d'Assurance Sécurité (PAS) et de la grille de scoring des 3 prestataires critiques |
+| **ISO 22301:2019** | Système de management de la continuité d'activité | Socle méthodologique du PCA/PRA — BIA, RTO/RPO, organisation de crise en 4 phases |
+| **EBIOS Risk Manager** (ANSSI) | Méthode nationale d'analyse de risque par scénarios | Colonne vertébrale de la mission — 5 ateliers menés intégralement, 9 scénarios consolidés |
+| **SecNumCloud** (ANSSI v3.2) | Référentiel de qualification pour l'hébergement cloud sensible | Non-conformité de l'hébergement Azure identifiée dès l'état des lieux — action P06 du PACS |
+| **NIST CSF** | Cadre de référence pour l'évaluation de maturité cyber | Co-mobilisé avec ISO 27001 et EBIOS RM pour construire l'échelle de maturité à 5 niveaux de l'état des lieux |
 
 ---
 
 ## Compétences mobilisées
 
-`Gouvernance SSI` · `Gestion des risques (EBIOS RM)` · `Continuité d'activité (BIA, PCA/PRA)` · `Conformité réglementaire (DORA, RGPD, PCI DSS, ISO 2700x, ISO 22301)` · `Gestion des risques tiers (ISO 27036)` · `Élaboration de stratégie et feuille de route cyber` · `Construction de business case & arbitrage budgétaire` · `Audit et évaluation de maturité` · `Communication exécutive (COMEX / CODIR)`
+`Gouvernance SSI` · `Gestion des risques (EBIOS RM)` · `Continuité d'activité (BIA, PCA/PRA)` · `Conformité réglementaire (DORA, RGPD, PCI DSS, ISO 2700x, ISO 22301)` · `Gestion des risques tiers (ISO 27036)` · `Élaboration de stratégie et feuille de route cyber` · `Construction de business case & arbitrage budgétaire` · `État des lieux et évaluation de maturité` · `Communication exécutive (COMEX / CODIR)`
 
 ---
 
@@ -291,7 +382,7 @@ Enfin, cette mission m'a confirmé qu'un RSSI organisationnel ne défend pas des
 
 ## Conclusion
 
-Cette mission a été conduite comme une véritable mission de conseil : un diagnostic sans concession, une méthodologie reconnue (EBIOS Risk Manager, ISO 27001, ISO 22301, ISO 27036), et surtout une traduction constante du risque technique en décision exécutive. Le dossier produit — inventaire, cartographie, audit, analyse de risques, gouvernance des tiers, continuité d'activité et feuille de route budgétée — constitue une base de décision, pas un simple rapport.
+Cette mission a été conduite comme une véritable mission de conseil : un diagnostic sans concession, une méthodologie reconnue (EBIOS Risk Manager, ISO 27001, ISO 22301, ISO 27036), et surtout une traduction constante du risque technique en décision exécutive. Le dossier produit — inventaire, cartographie, état des lieux, analyse de risques, gouvernance des tiers, continuité d'activité et feuille de route budgétée — constitue une base de décision, pas un simple rapport.
 
 C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un risque résiduel plutôt qu'à le maquiller, et à transformer une analyse de risques en 23,9 M€ de trajectoire priorisée, qui résume le mieux ce que signifie, pour moi, exercer la fonction de RSSI organisationnel.
 
@@ -300,7 +391,7 @@ C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un
 <div align="center">
 
 **Loïc Wilfried Yamga** — RSSI Organisationnel
-*Mission réalisée en binôme avec Samuel Kissi-Bi (RSSI Opérationnel) — cursus spécialisé en cybersécurité, 2025-2026*
+*Cursus spécialisé en cybersécurité, 2025-2026*
 
 [← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
 
