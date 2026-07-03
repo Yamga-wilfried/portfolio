@@ -408,7 +408,7 @@ Ce dossier relie, sans rupture, un diagnostic de maturité, une analyse de risqu
 
 ---
 
-**Loïc Wilfried Yamga** — RSSI Organisationnel
+**Loïc Wilfried Yamga** — RSSI Group
 *Cursus spécialisé en cybersécurité, 2025-2026*
 
 [← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
