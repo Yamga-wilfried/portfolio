@@ -8,7 +8,7 @@
 ![Secteur](https://img.shields.io/badge/Secteur-Bancaire%20%2F%20Finance-10264A?style=flat-square)
 ![Périmètre](https://img.shields.io/badge/P%C3%A9rim%C3%A8tre-Gouvernance%20SSI%20%26%20R%C3%A9silience-B7791F?style=flat-square)
 ![Méthode](https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square)
-![Budget](https://img.shields.io/badge/Trajectoire-23%2C9%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square)
+![Budget](https://img.shields.io/badge/Trajectoire-22%20M%E2%82%AC%20%2F%202025--2027-B7791F?style=flat-square)
 
 *Étude de cas — Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste) par Loïc Wilfried Yamga, dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026.*
 
@@ -64,7 +64,7 @@ Hexagone Bank est un établissement bancaire de 8 500 collaborateurs, 185 agence
 
 À la demande de la Direction Générale, j'ai conduit la mission de structuration complète de la gouvernance cybersécurité de l'établissement : de l'inventaire des actifs jusqu'à la feuille de route budgétée, en passant par un audit de maturité, une analyse de risques EBIOS Risk Manager, la refonte de la gouvernance des prestataires critiques et la conception du plan de continuité d'activité.
 
-Le résultat : un état des lieux sans concession (maturité **faible à moyenne** sur 6 des 8 domaines audités), une cartographie précise de **9 scénarios de risque** dont **4 restent non acceptables** après traitement — nécessitant un arbitrage formel du COMEX — et une trajectoire de transformation chiffrée à **23,9 M€ sur trois ans**, structurée en **20 projets** répartis en 3 vagues de priorité.
+Le résultat : un état des lieux sans concession (maturité **faible à moyenne** sur 6 des 8 domaines audités), une cartographie précise de **9 scénarios de risque** dont **4 restent non acceptables** après traitement — nécessitant un arbitrage formel du COMEX — et une trajectoire de transformation chiffrée à **22 M€ sur trois ans**, structurée en **20 projets** répartis en 3 vagues de priorité.
 
 La mission s'est conclue par une restitution exécutive de 18 slides devant un COMEX, avec **cinq décisions concrètes** demandées à la Direction Générale — dont le rattachement direct du RSSI à la Direction Générale, condition de son indépendance.
 
@@ -148,8 +148,8 @@ Chaque flèche est une traçabilité réelle et vérifiable dans le dossier : ch
 | 04 | **État des lieux de sécurité** | Évaluation de maturité sur 8 domaines selon une échelle N1 (Initial) → N5 (Optimisé) inspirée d'ISO 27001, EBIOS RM et NIST CSF — verdict global : **maturité faible à moyenne**, avec analyse de causes racines |
 | 05 | **Analyse de risques EBIOS Risk Manager** | Les 5 ateliers ANSSI menés intégralement — 4 valeurs métier, 8 sources de risque, 14 parties prenantes évaluées, **9 scénarios de risque consolidés**, dont 4 résiduels non acceptables |
 | 06 | **Gouvernance des prestataires (SLA + PAS)** | Cadre ISO 27036 appliqué au SOC externalisé (Orange CyberDefense) : SLA chiffrés (GTI/GTR), plan d'audit prestataire sur 6 domaines, grille de scoring et clauses de remédiation |
-| 07 | **Plan de continuité et de reprise d'activité** | BIA sur 8 processus critiques, RTO/RPO chiffrés (de 30 minutes à 72 heures selon criticité), organisation de crise en 4 phases, budget dédié de 1,9 M€ |
-| 08 | **Plan d'action priorisé — PACS** | 20 projets scorés objectivement (impact, faisabilité, coût), organisés en 3 vagues sur 3 ans, pour un budget total de 23,9 M€ |
+| 07 | **Plan de continuité et de reprise d'activité** | BIA sur 8 processus critiques, RTO/RPO chiffrés (de 30 minutes à 72 heures selon criticité), organisation de crise en 4 phases, budget dédié de 1,5 M€ |
+| 08 | **Plan d'action priorisé — PACS** | 20 projets scorés objectivement (impact, faisabilité, coût), organisés en 3 vagues sur 3 ans, pour un budget total de 22 M€ |
 | — | **Présentation exécutive COMEX** | Restitution de 18 slides face à un comité de direction, avec 5 décisions formelles demandées |
 
 <details>
@@ -260,7 +260,7 @@ Un risque bien analysé et un prestataire bien audité ne suffisent pas si Hexag
 
 **Dispositif de test — la continuité n'est crédible que si elle est exercée** : un exercice de gestion de crise par an, un test PRA complet par an, des tests trimestriels de sauvegarde/restauration, et un RETEX systématique après chaque activation ou incident majeur.
 
-**Budget dédié : 1,9 M€**, intégré à l'enveloppe cyber globale — renforcement des sauvegardes (300 k€), solutions de redondance (800 k€), infrastructure réseau (400 k€), exercices de crise (100 k€), continuité du travail à distance sécurisé (150 k€), audits fournisseurs (100 k€), formation (50 k€).
+**Budget dédié : 1,5 M€**, calibré pour tenir dans l'enveloppe cyber globale aux côtés du PACS — solutions de redondance (630 k€), renforcement des sauvegardes (230 k€), infrastructure réseau (320 k€), continuité du travail à distance sécurisé (120 k€), exercices de crise (80 k€), audits fournisseurs (80 k€), formation (40 k€).
 
 ---
 
@@ -275,10 +275,10 @@ Vingt scénarios de risque et un état des lieux de maturité ne valent rien san
 Impact et faisabilité sont notés de 1 à 4, le coût est inversé (un projet cher pénalise son score). Les projets scorant ≥ 13 sont engagés sans délai (7 projets), ceux entre 11 et 12 sont structurants (11 projets), les autres sont complémentaires (2 projets).
 
 <div align="center">
-<img src="assets/roadmap-timeline.svg" alt="Feuille de route PACS 2025-2027 — 3 vagues, 20 projets, 23,9 M€" width="100%"/>
+<img src="assets/roadmap-timeline.svg" alt="Feuille de route PACS 2025-2027 — 3 vagues, 20 projets, 22 M€" width="100%"/>
 </div>
 
-Le PACS n'est pas qu'un calendrier — c'est un budget structuré et défendable : **294-336 M€ de budget IT annuel**, dont **20 à 25 M€ dédiés au cyber sur trois ans**, pour un plan chiffré à **23,9 M€**, laissant une marge de manœuvre volontaire pour l'imprévu. La priorisation par score a elle-même généré une économie estimée à 1,9 M€ en évitant les projets à faible ratio impact/coût.
+Le PACS n'est pas qu'un calendrier — c'est un budget structuré et défendable : **294-336 M€ de budget IT annuel**, dont **20 à 25 M€ dédiés au cyber sur trois ans**. Le plan se décompose en **22 M€ pour le PACS** (V1 : 5 projets, 3 M€ · V2 : 10 projets, 10 M€ · V3 : 5 projets, 9 M€) et **1,5 M€ pour le PCA/PRA**, soit un engagement cyber total de **23,5 M€** — dans l'enveloppe, avec une marge volontaire pour l'imprévu.
 
 ---
 
@@ -315,7 +315,7 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable —
 ✔ **Analyse de risques EBIOS RM complète** — 9 scénarios consolidés, 4 risques résiduels arbitrés au niveau exécutif plutôt que masqués
 ✔ **Gestion des tiers renforcée** — SLA chiffrés et plan d'audit prestataire opérationnels avec le SOC externalisé
 ✔ **Continuité d'activité conçue** — RTO le plus exigeant à 30 minutes pour la supervision sécurité, avant même les paiements
-✔ **Trajectoire cyber priorisée et budgétée** — 20 projets, 23,9 M€, méthode de scoring défendable devant un COMEX
+✔ **Trajectoire cyber priorisée et budgétée** — 20 projets, 22 M€ (23,5 M€ avec le PCA/PRA), méthode de scoring défendable devant un COMEX
 ✔ **Alignement réglementaire total** — DORA, RGPD, PCI DSS, ISO 27001/27005/22301 couverts et tracés
 ✔ **Vision stratégique consolidée** — restituée en 18 slides et 5 décisions concrètes demandées à la Direction Générale
 
@@ -384,7 +384,7 @@ Enfin, cette mission m'a confirmé qu'un RSSI organisationnel ne défend pas des
 
 Cette mission a été conduite comme une véritable mission de conseil : un diagnostic sans concession, une méthodologie reconnue (EBIOS Risk Manager, ISO 27001, ISO 22301, ISO 27036), et surtout une traduction constante du risque technique en décision exécutive. Le dossier produit — inventaire, cartographie, état des lieux, analyse de risques, gouvernance des tiers, continuité d'activité et feuille de route budgétée — constitue une base de décision, pas un simple rapport.
 
-C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un risque résiduel plutôt qu'à le maquiller, et à transformer une analyse de risques en 23,9 M€ de trajectoire priorisée, qui résume le mieux ce que signifie, pour moi, exercer la fonction de RSSI organisationnel.
+C'est cette capacité à faire dialoguer la technique et le COMEX, à assumer un risque résiduel plutôt qu'à le maquiller, et à transformer une analyse de risques en 22 M€ de trajectoire priorisée, qui résume le mieux ce que signifie, pour moi, exercer la fonction de RSSI organisationnel.
 
 ---
 
