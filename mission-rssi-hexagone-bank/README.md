@@ -368,12 +368,19 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable —
 ## Résultats et valeur créée
 
 ✔ **Gouvernance SSI structurée** — gap d'indépendance du RSSI objectivé et porté en décision COMEX
+
 ✔ **Exposition cartographiée** — 20 actifs critiques classés, 4 actifs pivots identifiés comme priorités absolues de protection
+
 ✔ **Analyse de risques EBIOS RM complète** — 9 scénarios consolidés, 4 risques résiduels arbitrés au niveau exécutif plutôt que masqués
+
 ✔ **Gestion des tiers renforcée** — SLA chiffrés et plan d'audit prestataire opérationnels avec le SOC externalisé
+
 ✔ **Continuité d'activité conçue** — RTO le plus exigeant à 30 minutes pour la supervision sécurité, avant même les paiements
+
 ✔ **Trajectoire cyber priorisée et budgétée** — 20 projets, 22 M€ (23,5 M€ avec le PCA/PRA), méthode de scoring défendable devant un COMEX
+
 ✔ **Alignement réglementaire total** — DORA, RGPD, PCI DSS, ISO 27001/27005/22301 couverts et tracés
+
 ✔ **Vision stratégique consolidée** — restituée en 18 slides et 5 décisions concrètes demandées à la Direction Générale
 
 ---
