@@ -398,7 +398,7 @@ La deuxième a été budgétaire. Construire la formule de scoring du PACS m'a c
 
 La troisième, la plus structurante, concerne le rapport au risque résiduel. J'ai d'abord été tenté de présenter un plan qui « résolvait tout ». Le scénario R7 — la backdoor implantée via une mise à jour fournisseur — m'a appris le contraire : certains risques ne se réduisent pas, ils se *gouvernent*. Documenter honnêtement qu'un risque reste élevé, en expliquer la raison structurelle, et le remettre entre les mains du COMEX est un acte de gouvernance plus mature que de prétendre l'avoir éliminé.
 
-Enfin, cette mission m'a confirmé qu'un RSSI ne défend pas des contrôles techniques, il défend une trajectoire de confiance. La demande de rattachement direct du RSSI à la Direction Générale n'est pas un point d'organigramme secondaire : c'est la condition de crédibilité de tout ce qui précède.
+Enfin, cette mission m'a confirmé qu'un RSSI ne défend pas des contrôles techniques, il défend une trajectoire de confiance.
 
 ---
 
