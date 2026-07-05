@@ -10,8 +10,8 @@
   <rect width="1600" height="460" fill="#FFFFFF"/>
 
   <!-- panel titles -->
-  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#7B241C">POSITIONNEMENT ACTUEL — GAP D'INDÉPENDANCE</text>
-  <text x="1220" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#14532D">POSITIONNEMENT CIBLE — DÉCISION COMEX DEMANDÉE</text>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#7B241C">POSITIONNEMENT ACTUEL : GAP D'INDÉPENDANCE</text>
+  <text x="1220" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#14532D">POSITIONNEMENT CIBLE : DÉCISION COMEX DEMANDÉE</text>
   <line x1="780" y1="20" x2="780" y2="440" stroke="#E2E6EF" stroke-width="1.5"/>
 
   <!-- AVANT tree -->
@@ -59,6 +59,6 @@
     <text x="1430" y="238" fill="#14532D" font-size="12.5">à nommer</text>
   </g>
 
-  <text x="380" y="400" text-anchor="middle" font-size="12.5" font-style="italic" fill="#7B241C">RSSI rattaché à la DSI — pas d'accès direct au COMEX</text>
+  <text x="380" y="400" text-anchor="middle" font-size="12.5" font-style="italic" fill="#7B241C">RSSI rattaché à la DSI, pas d'accès direct au COMEX</text>
   <text x="1220" y="330" text-anchor="middle" font-size="12.5" font-style="italic" fill="#14532D">RSSI et DPO rattachés directement à la Direction Générale</text>
 </svg>
