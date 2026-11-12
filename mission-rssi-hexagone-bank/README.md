@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Statut-Mission%20finalis%C3%A9e-1E8449?style=flat-square" alt="Statut"/>
+<img src="https://img.shields.io/badge/Projet-Individuel-1E8449?style=flat-square" alt="Projet individuel"/>
 <img src="https://img.shields.io/badge/Secteur-Bancaire%20%2F%20Finance-10264A?style=flat-square" alt="Secteur"/>
 <img src="https://img.shields.io/badge/P%C3%A9rim%C3%A8tre-Gouvernance%20SSI%20%26%20R%C3%A9silience-B7791F?style=flat-square" alt="Périmètre"/>
 <img src="https://img.shields.io/badge/M%C3%A9thode-EBIOS%20Risk%20Manager-10264A?style=flat-square" alt="Méthode"/>
@@ -12,11 +12,11 @@
 
 <br/><br/>
 
-<em>Étude de cas : Mission de gouvernance SSI conduite pour Hexagone Bank (établissement bancaire fictif, construit avec un souci de réalisme opérationnel total : référentiels réels, méthodologie ANSSI, chiffrage économique réaliste) par moi, Loïc Wilfried Yamga, dans le cadre d'un cursus spécialisé en cybersécurité, 2025-2026.</em>
+<em>Étude de cas réalisée seul dans le cadre de mon MSc Cybersécurité & Management à l'EFREI, 2025-2026. Hexagone Bank est une banque fictive, mais les référentiels, la méthode ANSSI et les ordres de grandeur budgétaires sont ceux du secteur.</em>
 
 <br/><br/>
 
-<sub><strong>ONZE RÉFÉRENTIELS MOBILISÉS EN CONDITIONS RÉELLES</strong></sub>
+<sub>Les onze référentiels utilisés</sub>
 
 <br/><br/>
 
@@ -68,7 +68,7 @@ Hexagone Bank est un établissement bancaire de 8 500 collaborateurs, 185 agence
 
 À la demande de la Direction Générale, j'ai conduit la mission de structuration complète de la gouvernance cybersécurité de l'établissement : de l'inventaire des actifs jusqu'à la feuille de route budgétée, en passant par un audit de maturité, une analyse de risques EBIOS Risk Manager, la refonte de la gouvernance des prestataires critiques et la conception du plan de continuité d'activité.
 
-Le résultat : un état des lieux sans concession (maturité **faible à moyenne** sur 6 des 8 domaines audités), une cartographie précise de **9 scénarios de risque** dont **4 restent non acceptables** après traitement, ce qui nécessite un arbitrage formel du COMEX, et une trajectoire de transformation chiffrée à **22 M€ sur trois ans**, structurée en **20 projets** répartis en 3 vagues de priorité.
+Le résultat : un état des lieux franc (maturité **faible à moyenne** sur 6 des 8 domaines audités), une cartographie précise de **9 scénarios de risque** dont **4 restent non acceptables** après traitement, ce qui nécessite un arbitrage formel du COMEX, et une trajectoire de transformation chiffrée à **22 M€ sur trois ans**, structurée en **20 projets** répartis en 3 vagues de priorité.
 
 La mission s'est conclue par une restitution exécutive de 18 slides devant un COMEX, avec **cinq décisions concrètes** demandées à la Direction Générale, dont le rattachement direct du RSSI à la Direction Générale, condition de son indépendance.
 
@@ -79,7 +79,7 @@ La mission s'est conclue par une restitution exécutive de 18 slides devant un C
 | | |
 |---|---|
 | **Raison sociale** | Hexagone Bank, Société Anonyme, établissement de crédit |
-| **Siège** | Paris La Défense · fondée en 2008 |
+| **Siège** | Paris La Défense, fondée en 2008 |
 | **Effectif** | 8 500 collaborateurs |
 | **Chiffre d'affaires** | 4,2 Md€ / an |
 | **Implantations** | 185 agences (France) + filiales Allemagne, Italie, Espagne |
@@ -100,7 +100,7 @@ Hexagone Bank s'appuie sur un système bancaire central (**HexaCore**), une plat
 
 Une banque de cette taille ne peut plus, depuis janvier 2025, se contenter d'une sécurité informatique empirique : DORA impose une gouvernance formalisée de la résilience opérationnelle numérique, un cadre de gestion des risques liés aux TIC, une supervision documentée des prestataires critiques et des tests de résilience réguliers, sous peine de sanctions et d'exposition réputationnelle et systémique.
 
-Hexagone Bank n'avait ni cartographie fiable de ses actifs, ni analyse de risques formalisée, ni feuille de route cyber priorisée. La mission consistait à combler ce vide en produisant, en conditions réelles de conseil, l'ensemble du dossier de gouvernance SSI qu'un cabinet de conseil en cybersécurité livrerait à un COMEX bancaire : un diagnostic rigoureux, une analyse de risques méthodologiquement irréprochable, et surtout une trajectoire actionnable et budgétée, pas un rapport de plus dans un tiroir.
+Hexagone Bank n'avait ni cartographie fiable de ses actifs, ni analyse de risques formalisée, ni feuille de route cyber priorisée. Ma mission : produire le dossier de gouvernance SSI qu'un cabinet de conseil remettrait à un COMEX bancaire. Un diagnostic, une analyse de risques menée selon la méthode, et surtout une trajectoire budgétée que la direction peut réellement mettre en œuvre.
 
 ---
 
@@ -231,7 +231,7 @@ L'analyse EBIOS RM a établi un fait structurant : le **tiers/prestataire compro
 | G2 (Majeure) | 3 heures | 24 heures |
 | G1 (Mineure) | 4 heures | 5 jours ouvrés |
 
-- **Disponibilité contractualisée** : SOC ≥ 99,9 % · portail client ≥ 99,5 % · plateforme de supervision ≥ 99,9 %
+- **Disponibilité contractualisée** : SOC ≥ 99,9 %, portail client ≥ 99,5 %, plateforme de supervision ≥ 99,9 %
 - **Notification d'incident au client : 4 heures maximum**, délibérément plus courte que les 72 heures imposées par le RGPD à la banque envers la CNIL, pour lui laisser le temps d'instruire son dossier
 - **Pénalités contractuelles** : 5 % de la facturation mensuelle en cas de GTI G4 manqué, 10 % pour un GTR G4 manqué, jusqu'à 15 % en cas de notification tardive d'un incident majeur
 - **Hébergement des données limité à l'UE**, tout transfert hors UE soumis à autorisation écrite préalable
@@ -293,7 +293,7 @@ Impact et faisabilité sont notés de 1 à 4, le coût est inversé (un projet c
 <img src="assets/roadmap-timeline.svg" alt="Feuille de route PACS 2025-2027 : 3 vagues, 20 projets, 22 M€" width="100%"/>
 </div>
 
-Le PACS n'est pas qu'un calendrier, c'est un budget structuré et défendable : **294-336 M€ de budget IT annuel**, dont **20 à 25 M€ dédiés au cyber sur trois ans**. Le plan se décompose en **22 M€ pour le PACS** (V1 : 5 projets, 3 M€ · V2 : 10 projets, 10 M€ · V3 : 5 projets, 9 M€) et **1,5 M€ pour le PCA/PRA**, soit un engagement cyber total de **23,5 M€**, dans l'enveloppe, avec une marge volontaire pour l'imprévu.
+Le PACS n'est pas qu'un calendrier, c'est un budget structuré et défendable : **294-336 M€ de budget IT annuel**, dont **20 à 25 M€ dédiés au cyber sur trois ans**. Le plan se décompose en **22 M€ pour le PACS** (V1 : 5 projets, 3 M€ ; V2 : 10 projets, 10 M€ ; V3 : 5 projets, 9 M€) et **1,5 M€ pour le PCA/PRA**, soit un engagement cyber total de **23,5 M€**, dans l'enveloppe, avec une marge volontaire pour l'imprévu.
 
 ---
 
@@ -361,7 +361,7 @@ Onze référentiels, chacun mobilisé sur un livrable précis et vérifiable, pa
 
 ## Compétences mobilisées
 
-`Gouvernance SSI` · `Gestion des risques (EBIOS RM)` · `Continuité d'activité (BIA, PCA/PRA)` · `Conformité réglementaire (DORA, RGPD, PCI DSS, ISO 2700x, ISO 22301)` · `Gestion des risques tiers (ISO 27036)` · `Élaboration de stratégie et feuille de route cyber` · `Construction de business case & arbitrage budgétaire` · `État des lieux et évaluation de maturité` · `Communication exécutive (COMEX / CODIR)`
+`Gouvernance SSI`, `Gestion des risques (EBIOS RM)`, `Continuité d'activité (BIA, PCA/PRA)`, `Conformité réglementaire (DORA, RGPD, PCI DSS, ISO 2700x, ISO 22301)`, `Gestion des risques tiers (ISO 27036)`, `Élaboration de stratégie et feuille de route cyber`, `Construction de business case & arbitrage budgétaire`, `État des lieux et évaluation de maturité`, `Communication exécutive (COMEX / CODIR)`
 
 ---
 
@@ -418,4 +418,4 @@ Ce dossier relie, sans rupture, un diagnostic de maturité, une analyse de risqu
 
 *Cursus spécialisé en cybersécurité, 2025-2026*
 
-[← Retour au portfolio](../index.md) · [LinkedIn](https://www.linkedin.com/in/loïc-yamga) · [wilfriedyamga@gmail.com](mailto:wilfriedyamga@gmail.com)
+[Retour au portfolio](../) | [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-yamga)
