@@ -149,7 +149,7 @@ p { margin: 0 0 1em; }
 .xp-meta .where { color: var(--muted); margin: 0.4rem 0 1.2rem; }
 .xp-meta p { color: var(--muted); font-size: 0.98rem; }
 .facts { list-style: none; margin: 0; padding: 0; }
-.facts li { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 1.25rem; padding: 1.1rem 0; border-top: 1px solid var(--line); }
+.facts li { display: grid; grid-template-columns: 9.75rem minmax(0, 1fr); gap: 1.25rem; padding: 1.1rem 0; border-top: 1px solid var(--line); }
 .facts li:last-child { border-bottom: 1px solid var(--line); }
 .facts .figure { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; color: var(--ink); line-height: 1.3; font-variant-numeric: lining-nums tabular-nums; }
 .facts p { margin: 0; }
