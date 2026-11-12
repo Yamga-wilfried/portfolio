@@ -31,6 +31,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+@media (max-width: 40rem) { html { scroll-padding-top: 5.5rem; } }
 
 body {
   margin: 0;
@@ -157,7 +158,10 @@ p { margin: 0 0 1em; }
 /* Compétences */
 .skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 4vw, 3rem); }
 .skills h3 { font-size: 1.25rem; margin-bottom: 0.6rem; }
-.skills p { color: var(--muted); margin: 0; }
+.skills p { color: var(--text); margin: 0 0 0.5rem; font-size: 0.98rem; }
+.skills .ref { color: var(--muted); font-size: 0.93rem; margin: 0; }
+.skills { row-gap: 2.25rem; }
+.sub { font-size: 1.35rem; margin: 2.75rem 0 1rem; }
 
 /* Projets */
 .project { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(1.75rem, 5vw, 4rem); align-items: center; }
@@ -207,7 +211,10 @@ p { margin: 0 0 1em; }
   .stops li:last-child { padding-bottom: 0; }
 }
 @media (max-width: 40rem) {
-  .site-nav ul { display: none; }
+  .site-nav .wrap { flex-direction: column; align-items: flex-start; gap: 0.2rem; padding-top: 0.6rem; padding-bottom: 0.5rem; }
+  .site-nav ul { max-width: 100%; overflow-x: auto; gap: 1.1rem; padding-bottom: 0.2rem; scrollbar-width: none; }
+  .site-nav ul::-webkit-scrollbar { display: none; }
+  .site-nav ul a { white-space: nowrap; font-size: 0.92rem; }
   .facts li { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
   .certs li { grid-template-columns: minmax(0, 1fr); }
   .certs .state { grid-row: auto; grid-column: 1; }
