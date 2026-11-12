@@ -97,6 +97,11 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; color: var(--fir); lin
 .facts strong { display: block; font-family: var(--serif); font-size: 1.3rem; color: var(--fir); line-height: 1.25; margin-bottom: 0.2rem; font-variant-numeric: lining-nums; }
 .facts span { color: var(--muted); font-size: 0.95rem; line-height: 1.45; display: block; }
 
+/* Compétences */
+.skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.75rem; }
+.skills h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
+.skills p { color: var(--muted); font-size: 0.98rem; margin: 0; }
+
 /* Projets */
 .project { margin-bottom: 3rem; }
 .project:last-of-type { margin-bottom: 0; }
@@ -140,5 +145,5 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; color: var(--fir); lin
   .timeline > li { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; padding-left: 1.4rem; }
   .timeline > li::before { left: 0.3rem; top: 0.6rem; }
   .timeline > li::after { left: calc(0.3rem - 5px); }
-  .facts, .certs { grid-template-columns: minmax(0, 1fr); }
+  .facts, .certs, .skills { grid-template-columns: minmax(0, 1fr); }
 }
