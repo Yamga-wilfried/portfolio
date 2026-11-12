@@ -52,7 +52,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; color: var(--fir); lin
 }
 .side .photo { width: 9.5rem; aspect-ratio: 1; border-radius: 50%; object-fit: cover; object-position: 50% 18%; border: 3px solid var(--copper-light); }
 .side h1 { color: var(--white); font-size: 2.1rem; letter-spacing: -0.01em; margin-top: 1.5rem; }
-.side .role { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--copper-light); margin: 0.6rem 0 1.25rem; line-height: 1.4; }
+.side .role { font-family: var(--serif); font-style: italic; font-size: 1.3rem; color: var(--copper-light); margin: 0.5rem 0 0.35rem; line-height: 1.3; }
+.side .fields { color: var(--white); font-size: 1rem; line-height: 1.5; margin-bottom: 1.25rem; }
 .side .status { font-size: 0.95rem; }
 
 .side nav { margin: 2rem 0; }
