@@ -128,7 +128,7 @@ Chaque flèche est une traçabilité réelle et vérifiable dans le dossier : ch
 
 ## Livrables clés
 
-> Neuf livrables structurent le dossier ITSM remis. Ils ne sont pas présentés ici in extenso : chacun est résumé pour sa valeur de décision, pas pour son volume.
+> Neuf livrables structurent le dossier remis. Ils ne sont pas présentés ici in extenso : chacun est résumé pour sa valeur de décision, pas pour son volume.
 
 | # | Livrable | Ce qu'il apporte |
 |---|---|---|
