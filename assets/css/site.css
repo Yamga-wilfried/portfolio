@@ -105,12 +105,12 @@ p { margin: 0 0 1em; }
 .btn-ghost { border-color: rgba(255,255,255,0.4); color: #fff; }
 .btn-ghost:hover { border-color: #fff; color: #fff; background: rgba(255,255,255,0.06); }
 
-.portrait { position: relative; justify-self: end; width: min(100%, 20rem); }
+.portrait { position: relative; justify-self: end; width: min(100%, 19rem); margin: 0; }
 .portrait::before {
-  content: ""; position: absolute; inset: 1rem -1rem -1rem 1rem;
-  border: 1px solid var(--gold); border-radius: 2px;
+  content: ""; position: absolute; inset: -12px;
+  border: 1px solid var(--gold); border-radius: 50%;
 }
-.portrait img { position: relative; border-radius: 2px; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; width: 100%; }
+.portrait img { position: relative; border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 22%; width: 100%; }
 
 /* Trajectoire : l'élément signature */
 .trajectory { position: relative; margin-top: 1rem; }
@@ -200,7 +200,7 @@ p { margin: 0 0 1em; }
 /* Petits écrans */
 @media (max-width: 52rem) {
   .hero .wrap, .about, .xp, .project, .skills { grid-template-columns: minmax(0, 1fr); }
-  .portrait { justify-self: start; width: min(70%, 15rem); order: -1; margin-bottom: 0.5rem; }
+  .portrait { justify-self: start; width: min(60%, 13rem); order: -1; margin: 12px 0 1rem 12px; }
   .project:nth-of-type(even) .project-media { order: 0; }
 
   .axis-labels, .track { display: none; }
