@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Un SOC open source complet, projet de Loïc Wilfried Yamga</title>
+  <meta name="description" content="Projet personnel : un SOC open source monté seul sous Proxmox avec Wazuh, Shuffle, pfSense, Suricata et Active Directory.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Un SOC open source complet">
+  <meta property="og:description" content="Wazuh, Shuffle, pfSense et Suricata sous Proxmox : détection, corrélation et réponse automatisée.">
+  <meta property="og:image" content="https://yamga-wilfried.github.io/portfolio/assets/img/og-card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#12352F">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#en-bref">Aller au contenu</a>
+
+  <nav class="site-nav" aria-label="Navigation principale">
+    <div class="wrap">
+      <a class="monogram" href="../">Loïc Yamga</a>
+      <ul>
+        <li><a href="../#parcours">Parcours</a></li>
+        <li><a href="../#experience">Expérience</a></li>
+        <li><a href="../#projets">Projets</a></li>
+        <li><a href="../#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="case-hero">
+    <div class="wrap">
+      <a class="back" href="../#projets">Retour aux projets</a>
+      <p class="kind">Projet personnel, réalisé seul</p>
+      <h1>Un SOC open source complet</h1>
+      <p class="lede">Monter de bout en bout un centre de supervision de sécurité dans mon propre laboratoire : collecter les journaux, détecter, corréler, puis automatiser une partie de la réponse.</p>
+      <p class="meta">2024-2025. Proxmox, Wazuh, Shuffle, pfSense, Suricata, Active Directory, postes Windows et Linux, MITRE ATT&CK.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="brief" id="en-bref" aria-labelledby="bref-titre">
+        <h2 id="bref-titre">En bref</h2>
+        <ul class="brief-figures">
+          <li><strong>Wazuh</strong><span>collecte, corrélation et détection, avec un tableau de bord intégré</span></li>
+          <li><strong>Shuffle</strong><span>playbooks de réponse automatisée déclenchés par les alertes</span></li>
+          <li><strong>pfSense</strong><span>pare-feu avec Suricata en détection et prévention d'intrusion</span></li>
+          <li><strong>3 postes</strong><span>Windows 10, Windows 11 et Ubuntu, plus un Active Directory, à surveiller</span></li>
+        </ul>
+        <p>J'ai voulu comprendre un SOC de l'intérieur, au-delà des outils que j'utilise en entreprise : chaque brique a été installée, configurée et reliée aux autres à la main, puis testée avec des attaques simulées.</p>
+      </section>
+
+      <div class="case-layout">
+        <nav class="toc" aria-label="Sommaire du projet">
+          <p>Sommaire</p>
+          <ol>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#etapes">Étapes du projet</a></li>
+            <li><a href="#en-images">Le SOC en images</a></li>
+            <li><a href="#suite">Et ensuite</a></li>
+          </ol>
+        </nav>
+
+        <article class="prose">
+          <h2 id="architecture">Architecture</h2>
+          <p>Tout tourne sur un hyperviseur Proxmox. Les postes et le contrôleur de domaine envoient leurs journaux à Wazuh, le trafic réseau passe par pfSense et Suricata, et les alertes critiques partent vers Shuffle, qui déclenche les réponses : blocage côté pare-feu ou action sur le poste concerné.</p>
+          <img src="../assets/img/soc-architecture.jpg" width="1600" height="1086" alt="Schéma du SOC : postes avec agents Wazuh, serveur Active Directory, pfSense avec Suricata, serveur Wazuh et serveur Shuffle dans un environnement Proxmox, face à un attaquant externe et un attaquant interne">
+
+          <h2 id="etapes">Étapes du projet</h2>
+          <ol>
+            <li>Définir le périmètre et choisir les outils.</li>
+            <li>Installer les serveurs : Proxmox, Wazuh, Shuffle, pfSense avec Suricata, Active Directory.</li>
+            <li>Installer les postes Windows 10, Windows 11 et Ubuntu, puis y déployer les agents Wazuh.</li>
+            <li>Écrire et ajuster les règles de détection, en les rattachant aux techniques MITRE ATT&CK.</li>
+            <li>Construire les playbooks de réponse dans Shuffle.</li>
+            <li>Simuler des attaques pour générer des journaux et vérifier que la chaîne détection et réponse fonctionne.</li>
+            <li>Documenter l'ensemble et les procédures de remédiation.</li>
+          </ol>
+
+          <h2 id="en-images">Le SOC en images</h2>
+          <p><strong>Agents connectés à Wazuh.</strong> Les postes Windows et Linux remontent leurs journaux en continu.</p>
+          <img src="img/agents-wazuh.jpg" width="1600" height="1000" alt="Liste des agents Wazuh connectés" loading="lazy">
+          <p><strong>Détection de vulnérabilités.</strong> Wazuh inventorie les logiciels des postes et signale les vulnérabilités connues.</p>
+          <img src="img/vulnerabilites-wazuh.jpg" width="1600" height="983" alt="Module de détection de vulnérabilités de Wazuh" loading="lazy">
+          <p><strong>Tableau de bord.</strong> Vue d'ensemble des alertes et de leur niveau de gravité.</p>
+          <img src="img/tableau-de-bord.jpg" width="1600" height="984" alt="Tableau de bord des alertes de sécurité" loading="lazy">
+          <p><strong>pfSense et Suricata.</strong> Les alertes réseau de l'IDS/IPS.</p>
+          <img src="img/pfsense-suricata.jpg" width="1012" height="868" alt="Alertes Suricata dans pfSense" loading="lazy">
+          <p><strong>Shuffle et ses playbooks.</strong> Les alertes critiques déclenchent des workflows de réponse.</p>
+          <img src="img/shuffle.jpg" width="1557" height="1044" alt="Interface de Shuffle" loading="lazy">
+          <img src="img/playbooks-shuffle.jpg" width="1600" height="861" alt="Exemple de playbook d'automatisation dans Shuffle" loading="lazy">
+          <p><strong>Suivi des incidents.</strong> Les événements détectés pendant les simulations, prêts à être analysés.</p>
+          <img src="img/incidents-wazuh.jpg" width="1600" height="946" alt="Liste des incidents détectés dans Wazuh" loading="lazy">
+
+          <h2 id="suite">Et ensuite</h2>
+          <p>Je prépare une démonstration complète d'un incident simulé, de la détection jusqu'à la réponse automatique par le playbook. Elle sera ajoutée ici.</p>
+
+          <p class="case-end">Projet personnel de Loïc Wilfried Yamga. <a href="../">Retour au portfolio</a></p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Loïc Wilfried Yamga. Dernière mise à jour : novembre 2026.</p>
+    </div>
+  </footer>
+</body>
+</html>

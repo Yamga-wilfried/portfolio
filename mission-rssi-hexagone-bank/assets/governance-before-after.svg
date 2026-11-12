@@ -12,7 +12,7 @@
   <!-- panel titles -->
   <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#7B241C">POSITIONNEMENT ACTUEL : GAP D'INDÉPENDANCE</text>
   <text x="1220" y="34" text-anchor="middle" font-size="16" font-weight="800" fill="#14532D">POSITIONNEMENT CIBLE : DÉCISION COMEX DEMANDÉE</text>
-  <line x1="780" y1="20" x2="780" y2="440" stroke="#E2E6EF" stroke-width="1.5"/>
+  <line x1="780" y1="20" x2="780" y2="440" stroke="#E6E1D6" stroke-width="1.5"/>
 
   <!-- AVANT tree -->
   <g stroke="#C0392B" stroke-width="2" marker-end="url(#arrowBad)" fill="none">
