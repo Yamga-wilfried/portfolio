@@ -244,7 +244,8 @@ p { margin: 0 0 1em; }
 .toc a:hover { color: var(--ink); }
 
 .prose { max-width: 46rem; }
-.prose p, .prose li, .brief p, .project p:not(.kind):not(.tags) { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.hero .lede, main p, main li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.kind, .tags, .meta, .status, .trajectory p, .trajectory li, .case-end, .toc li, .brief-figures li { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
 .prose td p, .prose th p { text-align: left; }
 .prose h2 { font-size: clamp(1.6rem, 2.8vw, 2rem); margin: 3.5rem 0 1rem; scroll-margin-top: 5rem; }
 .prose h2:first-of-type { margin-top: 2.5rem; }
