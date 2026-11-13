@@ -272,3 +272,18 @@ p { margin: 0 0 1em; }
   .toc { position: static; }
   .brief-figures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* Version allégée de l'accueil */
+.about-text .creds { color: var(--muted); font-size: 0.95rem; margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid var(--line); text-align: left; }
+.about-text .creds strong { color: var(--text); font-weight: 600; }
+.axes .ref { color: var(--gold-text); font-weight: 500; }
+@media (max-width: 48rem) {
+  .hero .lede, main p, main li { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
+}
+@media (max-width: 52rem) {
+  .portrait { width: min(40%, 9rem); }
+}
+@media (max-width: 40rem) {
+  .site-nav ul { gap: 0.9rem; }
+  .site-nav ul a { font-size: 0.88rem; }
+}
