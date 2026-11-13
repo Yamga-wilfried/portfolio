@@ -36,7 +36,7 @@
       <a class="back" href="../#projets">Retour aux projets</a>
       <p class="kind">Projet personnel</p>
       <h1>Un SOC open source</h1>
-      <p class="lede">Monter de bout en bout un centre de supervision de sécurité dans mon propre laboratoire : collecter les journaux, détecter, corréler, puis automatiser une partie de la réponse.</p>
+      <p class="lede">Monter un centre de supervision de sécurité dans mon propre laboratoire : collecter les journaux, détecter, corréler, puis automatiser une partie de la réponse.</p>
       <p class="meta">2024-2025. Proxmox, Wazuh, Shuffle, pfSense, Suricata, Active Directory, postes Windows et Linux, MITRE ATT&CK.</p>
     </div>
   </header>
@@ -51,7 +51,7 @@
           <li><strong>pfSense</strong><span>pare-feu avec Suricata en détection et prévention d'intrusion</span></li>
           <li><strong>3 postes</strong><span>Windows 10, Windows 11 et Ubuntu, plus un Active Directory, à surveiller</span></li>
         </ul>
-        <p>J'ai voulu comprendre un SOC de l'intérieur, au-delà des outils que j'utilise en entreprise : chaque brique a été installée, configurée et reliée aux autres à la main, puis testée avec des attaques simulées.</p>
+        <p>J'ai voulu comprendre un SOC de l'intérieur, au-delà des outils que j'utilise en entreprise : chaque brique a été installée, configurée et reliée aux autres à la main, puis testée avec des attaques simulées.</p>
       </section>
 
       <div class="case-layout">
@@ -66,13 +66,13 @@
 
         <article class="prose">
           <h2 id="architecture">Architecture</h2>
-          <p>Tout tourne sur un hyperviseur Proxmox. Les postes et le contrôleur de domaine envoient leurs journaux à Wazuh, le trafic réseau passe par pfSense et Suricata, et les alertes critiques partent vers Shuffle, qui déclenche les réponses : blocage côté pare-feu ou action sur le poste concerné.</p>
+          <p>Tout tourne sur un hyperviseur Proxmox. Les postes et le contrôleur de domaine envoient leurs journaux à Wazuh, le trafic réseau passe par pfSense et Suricata, et les alertes critiques partent vers Shuffle, qui déclenche les réponses : blocage côté pare-feu ou action sur le poste concerné.</p>
           <img src="../assets/img/soc-architecture.jpg" width="1600" height="1086" alt="Schéma du SOC : postes avec agents Wazuh, serveur Active Directory, pfSense avec Suricata, serveur Wazuh et serveur Shuffle dans un environnement Proxmox, face à un attaquant externe et un attaquant interne">
 
           <h2 id="etapes">Étapes du projet</h2>
           <ol>
             <li>Définir le périmètre et choisir les outils.</li>
-            <li>Installer les serveurs : Proxmox, Wazuh, Shuffle, pfSense avec Suricata, Active Directory.</li>
+            <li>Installer les serveurs : Proxmox, Wazuh, Shuffle, pfSense avec Suricata, Active Directory.</li>
             <li>Installer les postes Windows 10, Windows 11 et Ubuntu, puis y déployer les agents Wazuh.</li>
             <li>Écrire et ajuster les règles de détection, en les rattachant aux techniques MITRE ATT&CK.</li>
             <li>Construire les playbooks de réponse dans Shuffle.</li>
@@ -103,7 +103,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>Loïc Wilfried Yamga. Dernière mise à jour : novembre 2026.</p>
+      <p>Loïc Wilfried Yamga. Dernière mise à jour : novembre 2026.</p>
     </div>
   </footer>
 </body>
