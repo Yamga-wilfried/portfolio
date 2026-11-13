@@ -9,11 +9,14 @@
   <meta property="og:title" content="Mission RSSI pour Hexagone Bank">
   <meta property="og:description" content="Simulation académique : gouvernance cyber d'une banque fictive soumise à DORA. EBIOS RM, prestataires, PCA/PRA et feuille de route de 22 M€.">
   <meta property="og:image" content="https://yamga-wilfried.github.io/portfolio/assets/img/og-card-2026.jpg">
+  <meta property="og:url" content="https://yamga-wilfried.github.io/portfolio/mission-rssi-hexagone-bank/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://yamga-wilfried.github.io/portfolio/mission-rssi-hexagone-bank/">
   <meta name="theme-color" content="#12352F">
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/site.css?v=20261113b">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261113c">
 </head>
 <body>
   <a class="skip" href="#en-bref">Aller au contenu</a>
@@ -52,6 +55,7 @@
           <li><strong>22&nbsp;M€</strong><span>de trajectoire cyber, dans l'enveloppe budgétaire</span></li>
         </ul>
         <p>J'ai tenu le rôle du RSSI : diagnostic de maturité, analyse de risques EBIOS RM, gouvernance des prestataires critiques, continuité d'activité, cartographie de conformité et feuille de route budgétée.</p>
+        <p class="note">Banque fictive : les données de l'établissement sont des hypothèses du sujet, et les chiffres présentés (niveaux de maturité, délais, engagements de service, budgets) sont les résultats de mon travail de simulation, pas ceux d'une mission réelle.</p>
       </section>
 
       <div class="case-layout">
@@ -74,21 +78,21 @@
           <p>Hexagone Bank est une banque fictive qui entre en 2025 dans le champ de DORA, le règlement européen sur la résilience opérationnelle numérique du secteur financier. Ma mission, dans le rôle du RSSI : produire le dossier de gouvernance qu'un cabinet de conseil remettrait à la direction, du diagnostic à une trajectoire budgétée.</p>
           <div class="table-wrap"><table><thead><tr><th>Hexagone Bank</th><th></th></tr></thead><tbody><tr><td>Effectif</td><td>8 500 collaborateurs, 185 agences</td></tr><tr><td>Implantations</td><td>France, filiales en Allemagne, Italie et Espagne</td></tr><tr><td>Activités</td><td>Banque de détail et digitale, assurance, services aux entreprises</td></tr><tr><td>Infrastructure</td><td>Deux datacenters (production et secours) et un cloud hybride</td></tr><tr><td>Fonctions externalisées</td><td>SOC, maintenance applicative, hébergement cloud</td></tr><tr><td>Enveloppe cyber</td><td>20 à 25 M€ sur 2025-2027</td></tr><tr><td>Régulateur</td><td>ACPR, DORA en vigueur depuis le 17 janvier 2025</td></tr></tbody></table></div>
           <p>Le point de départ est fragile : pas de politique de sécurité validée, des plans de continuité jamais testés, pas d'inventaire centralisé des actifs, et un RSSI rattaché à la DSI plutôt qu'à la direction générale.</p>
-          <img src="assets/methodology-pipeline.svg" alt="Méthodologie de la mission : de la gouvernance à la décision de la direction">
+          <a class="zoom" href="assets/methodology-pipeline.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/methodology-pipeline.svg" alt="Méthodologie de la mission : de la gouvernance à la décision de la direction"></a>
 
           <h2 id="diagnostic">Diagnostic de maturité</h2>
           <p>J'ai inventorié 20 actifs critiques, classés selon leur besoin en confidentialité, intégrité et disponibilité, et répartis en 7 zones de sécurité. Quatre actifs pivots ressortent, dont la compromission entraînerait un effet de cascade : l'Active Directory, la gestion des identités, le système bancaire central et le cloud.</p>
-          <img src="assets/architecture-zones.svg" alt="Architecture de sécurité simplifiée : 7 zones et actifs pivots">
+          <a class="zoom" href="assets/architecture-zones.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/architecture-zones.svg" alt="Architecture de sécurité simplifiée : 7 zones et actifs pivots"></a>
           <p>J'ai ensuite évalué la maturité sur 8 domaines, avec une échelle à cinq niveaux inspirée d'ISO 27001 et du NIST CSF.</p>
           <div class="table-wrap"><table><thead><tr><th>Domaine</th><th>Verdict</th></tr></thead><tbody><tr><td>Gouvernance SSI</td><td>Faible</td></tr><tr><td>Organisation</td><td>Moyen</td></tr><tr><td>Processus métiers</td><td>Faible</td></tr><tr><td>Infrastructures et réseaux</td><td>Faible</td></tr><tr><td>Applications</td><td>Faible</td></tr><tr><td>Données</td><td>Faible</td></tr><tr><td>Conformité réglementaire</td><td>Faible à moyen</td></tr><tr><td>Sécurité opérationnelle</td><td>Moyen</td></tr></tbody></table></div>
           <p>Six domaines sur huit sont faibles, aucun n'est élevé : l'écart est structurel, ce qui justifie une trajectoire complète plutôt que des corrections ponctuelles. Premier constat de gouvernance : le RSSI doit être rattaché à la direction générale pour être indépendant.</p>
-          <img src="assets/governance-before-after.svg" alt="Positionnement du RSSI : situation actuelle et cible recommandée">
+          <a class="zoom" href="assets/governance-before-after.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/governance-before-after.svg" alt="Positionnement du RSSI : situation actuelle et cible recommandée"></a>
 
           <h2 id="risques">Analyse de risques EBIOS RM</h2>
           <p>J'ai mené les cinq ateliers de la méthode de l'ANSSI : 4 valeurs métier, 8 sources de risque, 14 parties prenantes évaluées, puis les chaînes d'attaque complètes, jusqu'à 9 scénarios consolidés.</p>
-          <img src="assets/ebios-workshops.svg" alt="Les 5 ateliers EBIOS Risk Manager">
+          <a class="zoom" href="assets/ebios-workshops.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/ebios-workshops.svg" alt="Les 5 ateliers EBIOS Risk Manager"></a>
           <p>Le plus emblématique est une fraude sur les virements internationaux, rendue possible par des droits trop larges sur le cloud. Au total, 4 scénarios restent non acceptables après les mesures prévues (MFA, gestion des accès à privilèges, EDR, segmentation). Conformément à DORA et à ISO 27001, leur acceptation relève d'une décision formelle de la direction, pas d'un choix technique du RSSI.</p>
-          <img src="assets/risk-matrix.svg" alt="Matrice de traitement des risques EBIOS Risk Manager : avant et après la feuille de route">
+          <a class="zoom" href="assets/risk-matrix.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/risk-matrix.svg" alt="Matrice de traitement des risques EBIOS Risk Manager : avant et après la feuille de route"></a>
 
           <h2 id="prestataires">Prestataires</h2>
           <p>L'analyse de risques montre que le prestataire compromis est l'une des menaces les plus pertinentes. Sur la base d'ISO 27036 et des articles 28 à 30 de DORA, j'ai défini pour le SOC externalisé des engagements chiffrés selon la gravité des incidents, une notification sous 4 heures, un droit d'audit et des pénalités.</p>
@@ -108,7 +112,7 @@
           <h2 id="feuille-de-route">Feuille de route</h2>
           <p>Chaque risque devient un projet, chaque projet un budget. Les 20 projets sont priorisés avec une formule simple : impact compté double, faisabilité, et coût inversé. Ils sont répartis en trois vagues sur trois ans.</p>
           <div class="table-wrap"><table><thead><tr><th>Vague</th><th>Projets</th><th>Budget</th></tr></thead><tbody><tr><td>1 : actions immédiates</td><td>5</td><td>3 M€</td></tr><tr><td>2 : renforcement structurant</td><td>10</td><td>10 M€</td></tr><tr><td>3 : transformation et résilience</td><td>5</td><td>9 M€</td></tr><tr><td><strong>Total</strong></td><td><strong>20</strong></td><td><strong>22 M€</strong></td></tr></tbody></table></div>
-          <img src="assets/roadmap-timeline.svg" alt="Feuille de route 2025-2027 : 3 vagues, 20 projets, 22 M€">
+          <a class="zoom" href="assets/roadmap-timeline.svg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="assets/roadmap-timeline.svg" alt="Feuille de route 2025-2027 : 3 vagues, 20 projets, 22 M€"></a>
           <p>Le pilotage suit la boucle d'amélioration continue d'ISO 27001 : un comité mensuel, un arbitrage trimestriel de la direction et six indicateurs, dont la couverture MFA et le délai de détection.</p>
 
           <h2 id="enseignements">Ce que j'en retiens</h2>

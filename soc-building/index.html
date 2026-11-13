@@ -9,11 +9,14 @@
   <meta property="og:title" content="Un SOC open source">
   <meta property="og:description" content="Wazuh, Shuffle, pfSense et Suricata sous Proxmox : détection, corrélation et réponse automatisée.">
   <meta property="og:image" content="https://yamga-wilfried.github.io/portfolio/assets/img/og-card-2026.jpg">
+  <meta property="og:url" content="https://yamga-wilfried.github.io/portfolio/soc-building/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://yamga-wilfried.github.io/portfolio/soc-building/">
   <meta name="theme-color" content="#12352F">
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/site.css?v=20261113b">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261113c">
 </head>
 <body>
   <a class="skip" href="#en-bref">Aller au contenu</a>
@@ -60,14 +63,15 @@
           <ol>
             <li><a href="#architecture">Architecture</a></li>
             <li><a href="#etapes">Étapes du projet</a></li>
+            <li><a href="#etat">Ce qui a été mis en place</a></li>
             <li><a href="#en-images">Le SOC en images</a></li>
           </ol>
         </nav>
 
         <article class="prose">
           <h2 id="architecture">Architecture</h2>
-          <p>Tout tourne sur un hyperviseur Proxmox. Les postes et le contrôleur de domaine envoient leurs journaux à Wazuh, le trafic réseau passe par pfSense et Suricata, et les alertes critiques partent vers Shuffle, qui déclenche les réponses : blocage côté pare-feu ou action sur le poste concerné.</p>
-          <img src="../assets/img/soc-architecture.jpg" width="1600" height="1086" alt="Schéma du SOC : postes avec agents Wazuh, serveur Active Directory, pfSense avec Suricata, serveur Wazuh et serveur Shuffle dans un environnement Proxmox, face à un attaquant externe et un attaquant interne">
+          <p>Tout tourne sur un hyperviseur Proxmox. Les postes et le contrôleur de domaine envoient leurs journaux à Wazuh, le trafic réseau passe par pfSense et Suricata, et les alertes critiques sont transmises à Shuffle, où sont configurés les playbooks de réponse (blocage côté pare-feu ou action sur le poste concerné).</p>
+          <a class="zoom" href="../assets/img/soc-architecture.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="../assets/img/soc-architecture.jpg" width="1600" height="1086" alt="Schéma du SOC : postes avec agents Wazuh, serveur Active Directory, pfSense avec Suricata, serveur Wazuh et serveur Shuffle dans un environnement Proxmox, face à un attaquant externe et un attaquant interne"></a>
 
           <h2 id="etapes">Étapes du projet</h2>
           <ol>
@@ -80,20 +84,32 @@
             <li>Documenter l'ensemble et les procédures de remédiation.</li>
           </ol>
 
+          <h2 id="etat">Ce qui a été mis en place</h2>
+          <p>Pour être précis sur ce que montre ce projet : tous les composants ont été installés et configurés par moi-même ; les tests ont été menés au moyen d'attaques simulées, dont un scénario de menace interne.</p>
+          <div class="table-wrap"><table><thead><tr><th>Composant</th><th>Rôle</th><th>Installé et configuré</th><th>Testé</th></tr></thead><tbody>
+          <tr><td>Proxmox</td><td>Hyperviseur du laboratoire</td><td>Oui</td><td>Sans objet</td></tr>
+          <tr><td>Wazuh et ses agents (Windows 10, Windows 11, Ubuntu)</td><td>Collecte, corrélation, détection, tableau de bord</td><td>Oui</td><td>Oui, alertes générées lors des simulations</td></tr>
+          <tr><td>Règles de détection rattachées à MITRE ATT&amp;CK</td><td>Détection</td><td>Oui</td><td>Oui, lors des simulations</td></tr>
+          <tr><td>pfSense et Suricata</td><td>Pare-feu, détection et prévention d'intrusion</td><td>Oui</td><td>Oui, alertes réseau</td></tr>
+          <tr><td>Active Directory</td><td>Domaine et source de journaux</td><td>Oui</td><td>Comme source de journaux</td></tr>
+          <tr><td>Shuffle</td><td>Playbooks de réponse automatisée</td><td>Oui</td><td>Oui, exécutés lors de la simulation de menace interne</td></tr>
+          </tbody></table></div>
+          <p><strong>Limite.</strong> Les enregistrements vidéo des simulations n'ont pas été conservés : les captures ci-dessous montrent la configuration et les alertes produites, pas le déroulé complet d'un scénario.</p>
+
           <h2 id="en-images">Le SOC en images</h2>
           <p><strong>Agents connectés à Wazuh.</strong> Les postes Windows et Linux remontent leurs journaux en continu.</p>
-          <img src="img/agents-wazuh.jpg" width="1600" height="1000" alt="Liste des agents Wazuh connectés" loading="lazy">
+          <a class="zoom" href="img/agents-wazuh.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/agents-wazuh.jpg" width="1600" height="1000" alt="Liste des agents Wazuh connectés" loading="lazy"></a>
           <p><strong>Détection de vulnérabilités.</strong> Wazuh inventorie les logiciels des postes et signale les vulnérabilités connues.</p>
-          <img src="img/vulnerabilites-wazuh.jpg" width="1600" height="983" alt="Module de détection de vulnérabilités de Wazuh" loading="lazy">
+          <a class="zoom" href="img/vulnerabilites-wazuh.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/vulnerabilites-wazuh.jpg" width="1600" height="983" alt="Module de détection de vulnérabilités de Wazuh" loading="lazy"></a>
           <p><strong>Tableau de bord.</strong> Vue d'ensemble des alertes et de leur niveau de gravité.</p>
-          <img src="img/tableau-de-bord.jpg" width="1600" height="984" alt="Tableau de bord des alertes de sécurité" loading="lazy">
+          <a class="zoom" href="img/tableau-de-bord.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/tableau-de-bord.jpg" width="1600" height="984" alt="Tableau de bord des alertes de sécurité" loading="lazy"></a>
           <p><strong>pfSense et Suricata.</strong> Les alertes réseau de l'IDS/IPS.</p>
-          <img src="img/pfsense-suricata.jpg" width="1012" height="868" alt="Alertes Suricata dans pfSense" loading="lazy">
-          <p><strong>Shuffle et ses playbooks.</strong> Les alertes critiques déclenchent des workflows de réponse.</p>
-          <img src="img/shuffle.jpg" width="1557" height="1044" alt="Interface de Shuffle" loading="lazy">
-          <img src="img/playbooks-shuffle.jpg" width="1600" height="861" alt="Exemple de playbook d'automatisation dans Shuffle" loading="lazy">
-          <p><strong>Suivi des incidents.</strong> Les événements détectés pendant les simulations, prêts à être analysés.</p>
-          <img src="img/incidents-wazuh.jpg" width="1600" height="946" alt="Liste des incidents détectés dans Wazuh" loading="lazy">
+          <a class="zoom" href="img/pfsense-suricata.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/pfsense-suricata.jpg" width="1012" height="868" alt="Alertes Suricata dans pfSense" loading="lazy"></a>
+          <p><strong>Shuffle et ses playbooks.</strong> Les workflows de réponse configurés pour traiter les alertes critiques.</p>
+          <a class="zoom" href="img/shuffle.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/shuffle.jpg" width="1557" height="1044" alt="Interface de Shuffle" loading="lazy"></a>
+          <a class="zoom" href="img/playbooks-shuffle.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/playbooks-shuffle.jpg" width="1600" height="861" alt="Exemple de playbook d'automatisation dans Shuffle" loading="lazy"></a>
+          <p><strong>Suivi des incidents.</strong> Les événements détectés par Wazuh pendant les simulations.</p>
+          <a class="zoom" href="img/incidents-wazuh.jpg" target="_blank" rel="noopener" title="Ouvrir l'image en grand"><img src="img/incidents-wazuh.jpg" width="1600" height="946" alt="Liste des incidents détectés dans Wazuh" loading="lazy"></a>
 
           <p class="case-end">Projet personnel de Loïc Wilfried Yamga. <a href="../">Retour au portfolio</a></p>
         </article>

@@ -289,3 +289,8 @@ p { margin: 0 0 1em; }
   .site-nav ul { gap: 0.9rem; }
   .site-nav ul a { font-size: 0.88rem; }
 }
+
+/* Images ouvrables en grand */
+.prose a.zoom { display: block; cursor: zoom-in; text-decoration: none; }
+.prose a.zoom:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.brief .note { color: var(--muted); font-size: 0.92rem; margin-top: 0.8rem; }
